@@ -1,0 +1,1091 @@
+{
+    "Graphics Cards": {
+        "name": "Graphics Cards",
+        "description": "Product category for graphics cards.",
+        "attributes": [
+            {
+                "name": "Graphics processor",
+                "description": "The graphics processor of the graphics card.",
+                "examples": [
+                    "geforce gtx 1060",
+                    "radeon rx 480",
+                    "geforce gtx 980",
+                    "geforce gt 1030",
+                    "geforce gtx 1080"
+                ]
+            },
+            {
+                "name": "Graphics card memory type",
+                "description": "The type of memory used in the graphics card.",
+                "examples": [
+                    "gddr5",
+                    "gddr5x",
+                    "gddr3"
+                ]
+            },
+            {
+                "name": "HDMI",
+                "description": "Whether the graphics card has HDMI support.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The family of the graphics card.",
+                "examples": [
+                    "nvidia"
+                ]
+            },
+            {
+                "name": "Discrete graphics card memory",
+                "description": "The amount of discrete memory in the graphics card.",
+                "examples": [
+                    "3072mb",
+                    "6144mb",
+                    "8192mb",
+                    "4096mb",
+                    "11264mb"
+                ]
+            },
+            {
+                "name": "Graphics processor family",
+                "description": "The family of the graphics processor.",
+                "examples": [
+                    "nvidia",
+                    "amd"
+                ]
+            }
+        ]
+    },
+    "Power products": {
+        "name": "Power products",
+        "description": "Products related to power supply and battery technology.",
+        "attributes": [
+            {
+                "name": "Power supply unit (PSU) form factor",
+                "description": "The form factor of the power supply unit (PSU).",
+                "examples": [
+                    "sfx",
+                    "atx",
+                    "tfx"
+                ]
+            },
+            {
+                "name": "80 PLUS certification",
+                "description": "The level of energy efficiency certification for the power supply.",
+                "examples": [
+                    "80 plus silver",
+                    "80 plus bronze",
+                    "80 plus gold",
+                    "80 plus"
+                ]
+            },
+            {
+                "name": "Purpose",
+                "description": "The intended purpose or use of the product.",
+                "examples": [
+                    "samsung galaxy s4",
+                    "travel"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the product.",
+                "examples": [
+                    "black",
+                    "silver",
+                    "white",
+                    "pink grey",
+                    "orange blue"
+                ]
+            },
+            {
+                "name": "Output power capacity",
+                "description": "The maximum output power capacity of the product.",
+                "examples": [
+                    "10"
+                ]
+            },
+            {
+                "name": "Total power",
+                "description": "The total power consumption or input voltage of the product.",
+                "examples": [
+                    "800",
+                    "380",
+                    "230v"
+                ]
+            },
+            {
+                "name": "Display type",
+                "description": "The type of display used in the product.",
+                "examples": [
+                    "lcd"
+                ]
+            },
+            {
+                "name": "Battery technology",
+                "description": "The technology used in the product's batteries.",
+                "examples": [
+                    "alkaline",
+                    "lithium"
+                ]
+            },
+            {
+                "name": "Battery size(s)",
+                "description": "The size(s) of the batteries used in the product.",
+                "examples": [
+                    "aaa",
+                    "9v",
+                    "c",
+                    "aa",
+                    "d"
+                ]
+            },
+            {
+                "name": "Battery voltage",
+                "description": "The voltage of the batteries used in the product.",
+                "examples": [
+                    "9",
+                    "48",
+                    "3"
+                ]
+            },
+            {
+                "name": "Form factor",
+                "description": "The physical form factor or design of the product.",
+                "examples": [
+                    "tower"
+                ]
+            },
+            {
+                "name": "Cabling type",
+                "description": "The type of cabling used in the product.",
+                "examples": [
+                    "modular"
+                ]
+            },
+            {
+                "name": "Power supply type",
+                "description": "The type of power supply used in the product.",
+                "examples": [
+                    "indoor",
+                    "ac"
+                ]
+            },
+            {
+                "name": "Compatibility",
+                "description": "The compatibility of the product with specific devices or brands.",
+                "examples": [
+                    "hp elitepad"
+                ]
+            },
+            {
+                "name": "Battery capacity",
+                "description": "The capacity or energy storage of the product's batteries.",
+                "examples": [
+                    "20100",
+                    "10050",
+                    "11300",
+                    "18200",
+                    "2200"
+                ]
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "The compatibility of the product with specific brands.",
+                "examples": [
+                    "lenovo"
+                ]
+            },
+            {
+                "name": "Output power",
+                "description": "The output power of the product.",
+                "examples": [
+                    "1980",
+                    "2700",
+                    "450",
+                    "65",
+                    "7000"
+                ]
+            },
+            {
+                "name": "Type",
+                "description": "The type of battery used in the product.",
+                "examples": [
+                    "aaa"
+                ]
+            },
+            {
+                "name": "Number of batteries included",
+                "description": "The number of batteries included with the product.",
+                "examples": [
+                    "10",
+                    "8",
+                    "2",
+                    "6",
+                    "4"
+                ]
+            },
+            {
+                "name": "Battery type",
+                "description": "The type of battery used in the product.",
+                "examples": [
+                    "rechargeable battery",
+                    "32x9ah"
+                ]
+            }
+        ]
+    },
+    "Pcs and workstations": {
+        "name": "Pcs and workstations",
+        "description": "This category includes PCs and workstations.",
+        "attributes": [
+            {
+                "name": "Chassis type",
+                "description": "The type of chassis for the product.",
+                "examples": [
+                    "sff",
+                    "tower",
+                    "mini pc"
+                ]
+            },
+            {
+                "name": "Maximum internal memory supported by processor",
+                "description": "The maximum internal memory supported by the processor.",
+                "examples": [
+                    "16"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the product.",
+                "examples": [
+                    "black"
+                ]
+            },
+            {
+                "name": "Processor manufacturer",
+                "description": "The manufacturer of the processor.",
+                "examples": [
+                    "intel",
+                    "amd"
+                ]
+            },
+            {
+                "name": "Total storage capacity",
+                "description": "The total storage capacity of the product.",
+                "examples": [
+                    "1",
+                    "500",
+                    "512",
+                    "256",
+                    "16"
+                ]
+            },
+            {
+                "name": "HDD capacity",
+                "description": "The capacity of the HDD.",
+                "examples": [
+                    "1",
+                    "500"
+                ]
+            },
+            {
+                "name": "Processor family",
+                "description": "The family of the processor.",
+                "examples": [
+                    "intel",
+                    "amd"
+                ]
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The family of the graphics card.",
+                "examples": [
+                    "intel",
+                    "amd"
+                ]
+            },
+            {
+                "name": "Product type",
+                "description": "The type of the product.",
+                "examples": [
+                    "pc",
+                    "mini pc",
+                    "workstation"
+                ]
+            },
+            {
+                "name": "Operating system installed",
+                "description": "The installed operating system.",
+                "examples": [
+                    "windows 7 professional",
+                    "windows 10 pro"
+                ]
+            },
+            {
+                "name": "Panel type",
+                "description": "The type of panel used.",
+                "examples": [
+                    "ips"
+                ]
+            },
+            {
+                "name": "Storage media",
+                "description": "The type of storage media used.",
+                "examples": [
+                    "hdd",
+                    "ssd",
+                    "flash"
+                ]
+            },
+            {
+                "name": "Internal memory",
+                "description": "The internal memory of the product.",
+                "examples": [
+                    "8",
+                    "4",
+                    "16",
+                    "2"
+                ]
+            },
+            {
+                "name": "Processor model",
+                "description": "The model of the processor.",
+                "examples": [
+                    "3865u",
+                    "2955u",
+                    "n3010",
+                    "3205u"
+                ]
+            },
+            {
+                "name": "SSD capacity",
+                "description": "The capacity of the SSD.",
+                "examples": [
+                    "512",
+                    "256"
+                ]
+            },
+            {
+                "name": "Product family",
+                "description": "The family of the product.",
+                "examples": [
+                    "intel nuc"
+                ]
+            },
+            {
+                "name": "Discrete graphics card memory",
+                "description": "The memory of the discrete graphics card."
+            },
+            {
+                "name": "Processor codename",
+                "description": "The codename of the processor.",
+                "examples": [
+                    "skylake",
+                    "kaby lake"
+                ]
+            }
+        ]
+    },
+    "Motherboards": {
+        "name": "Motherboards",
+        "description": "Motherboards are the main circuit boards that connect all the components of a computer system.",
+        "attributes": [
+            {
+                "name": "Processor manufacturer",
+                "description": "The manufacturer of the processor.",
+                "examples": [
+                    "intel",
+                    "amd"
+                ]
+            },
+            {
+                "name": "Processor socket",
+                "description": "The type of socket that the processor fits into.",
+                "examples": [
+                    "socket am3",
+                    "socket am4",
+                    "socket tr4"
+                ]
+            },
+            {
+                "name": "Supported processor sockets",
+                "description": "The compatible processor sockets supported by the motherboard.",
+                "examples": [
+                    "socket am4"
+                ]
+            },
+            {
+                "name": "Motherboard form factor",
+                "description": "The size and shape of the motherboard.",
+                "examples": [
+                    "micro atx",
+                    "atx",
+                    "mini itx"
+                ]
+            },
+            {
+                "name": "Motherboard chipset family",
+                "description": "The chipset family of the motherboard.",
+                "examples": [
+                    "intel",
+                    "amd"
+                ]
+            },
+            {
+                "name": "Motherboard chipset",
+                "description": "The specific chipset of the motherboard.",
+                "examples": [
+                    "intel z68",
+                    "intel h77",
+                    "intel x79",
+                    "intel z77",
+                    "amd 880g"
+                ]
+            },
+            {
+                "name": "Power source type",
+                "description": "The type of power source required by the motherboard.",
+                "examples": [
+                    "atx"
+                ]
+            },
+            {
+                "name": "Component for",
+                "description": "The type of computer or workstation the motherboard is designed for.",
+                "examples": [
+                    "pc",
+                    "workstation"
+                ]
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The graphics card family supported by the motherboard.",
+                "examples": [
+                    "intel"
+                ]
+            },
+            {
+                "name": "Cables included",
+                "description": "The type of cables included with the motherboard.",
+                "examples": [
+                    "sata"
+                ]
+            },
+            {
+                "name": "Controller interface type",
+                "description": "The type of controller interface supported by the motherboard.",
+                "examples": [
+                    "intel h77",
+                    "intel x79",
+                    "intel z77"
+                ]
+            }
+        ]
+    },
+    "Toner Cartridges": {
+        "name": "Toner Cartridges",
+        "description": "Toner cartridges are used for printing documents and images.",
+        "attributes": [
+            {
+                "name": "Brand compatibility",
+                "description": "The brand of printers that the toner cartridge is compatible with.",
+                "examples": [
+                    "epson",
+                    "samsung",
+                    "hp",
+                    "brother",
+                    "canon"
+                ]
+            },
+            {
+                "name": "Quantity per pack",
+                "description": "The number of toner cartridges included in each pack.",
+                "examples": [
+                    "1",
+                    "2"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the toner cartridge.",
+                "examples": [
+                    "black",
+                    "yellow"
+                ]
+            },
+            {
+                "name": "Colour toner page yield",
+                "description": "The estimated number of pages that can be printed with the color toner.",
+                "examples": [
+                    "1500",
+                    "8000",
+                    "15000",
+                    "1000",
+                    "2000"
+                ]
+            },
+            {
+                "name": "Printing colours",
+                "description": "The colors that can be printed with the toner cartridge.",
+                "examples": [
+                    "cyan",
+                    "black",
+                    "yellow",
+                    "magenta"
+                ]
+            },
+            {
+                "name": "OEM code",
+                "description": "The original equipment manufacturer code for the toner cartridge.",
+                "examples": [
+                    "ce264x",
+                    "ce320a",
+                    "cb436a",
+                    "q5953a",
+                    "c7115x"
+                ]
+            },
+            {
+                "name": "Black toner page yield",
+                "description": "The estimated number of pages that can be printed with the black toner.",
+                "examples": [
+                    "15000",
+                    "2600"
+                ]
+            },
+            {
+                "name": "Type",
+                "description": "The type of toner cartridge.",
+                "examples": [
+                    "original"
+                ]
+            },
+            {
+                "name": "Supply type",
+                "description": "The type of packaging for the toner cartridge.",
+                "examples": [
+                    "tri pack",
+                    "single pack"
+                ]
+            }
+        ]
+    },
+    "Computer Monitors": {
+        "name": "Computer Monitors",
+        "description": "Computer monitors are devices that display visual output from a computer or other electronic device.",
+        "attributes": [
+            {
+                "name": "Product colour",
+                "description": "The color of the computer monitor.",
+                "examples": [
+                    "black",
+                    "silver black",
+                    "midnight grey",
+                    "black red",
+                    "silver"
+                ]
+            },
+            {
+                "name": "Display technology",
+                "description": "The technology used in the display of the computer monitor.",
+                "examples": [
+                    "led",
+                    "lcd"
+                ]
+            },
+            {
+                "name": "Display",
+                "description": "The type of display used in the computer monitor.",
+                "examples": [
+                    "led",
+                    "lcd"
+                ]
+            },
+            {
+                "name": "Screen shape",
+                "description": "The shape of the computer monitor screen.",
+                "examples": [
+                    "curved"
+                ]
+            },
+            {
+                "name": "HD type",
+                "description": "The type of high-definition display used in the computer monitor.",
+                "examples": [
+                    "full hd",
+                    "4k",
+                    "qhd",
+                    "fhd",
+                    "4k ultra hd"
+                ]
+            },
+            {
+                "name": "3D",
+                "description": "Whether the computer monitor supports 3D display.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Display resolution",
+                "description": "The resolution of the computer monitor display.",
+                "examples": [
+                    "1920x1080",
+                    "2560x1440",
+                    "3840x2160",
+                    "2560 x 1440",
+                    "3440x1440"
+                ]
+            },
+            {
+                "name": "AMD FreeSync type",
+                "description": "The type of AMD FreeSync technology supported by the computer monitor.",
+                "examples": [
+                    "freesync"
+                ]
+            },
+            {
+                "name": "Backlight type",
+                "description": "The type of backlight used in the computer monitor.",
+                "examples": [
+                    "led"
+                ]
+            },
+            {
+                "name": "Panel type",
+                "description": "The type of panel used in the computer monitor.",
+                "examples": [
+                    "va",
+                    "ips",
+                    "tn",
+                    "pls",
+                    "flat"
+                ]
+            },
+            {
+                "name": "Refresh rate",
+                "description": "The refresh rate of the computer monitor display.",
+                "examples": [
+                    "144hz",
+                    "165hz",
+                    "180hz",
+                    "75hz",
+                    "60hz"
+                ]
+            },
+            {
+                "name": "Display brightness (typical)",
+                "description": "The typical brightness of the computer monitor display.",
+                "examples": [
+                    "300"
+                ]
+            },
+            {
+                "name": "Supported graphics resolutions",
+                "description": "The supported graphics resolutions of the computer monitor.",
+                "examples": [
+                    "2560 x 1440"
+                ]
+            },
+            {
+                "name": "Touchscreen",
+                "description": "Whether the computer monitor has touchscreen functionality.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Market positioning",
+                "description": "The market positioning of the computer monitor.",
+                "examples": [
+                    "gaming",
+                    "professional",
+                    "business"
+                ]
+            },
+            {
+                "name": "Response time",
+                "description": "The response time of the computer monitor.",
+                "examples": [
+                    "6 ms",
+                    "5ms",
+                    "1ms",
+                    "5 ms",
+                    "8 ms"
+                ]
+            }
+        ]
+    },
+    "Ink Cartridges": {
+        "name": "Ink Cartridges",
+        "description": "Ink cartridges are used for printing documents and images.",
+        "attributes": [
+            {
+                "name": "Printing colours",
+                "description": "The available printing colours for the ink cartridges are photo black, yellow, magenta, light magenta, and cyan."
+            },
+            {
+                "name": "Quantity per pack",
+                "description": "The ink cartridges are available in packs of 3, 1, 2, or 4."
+            },
+            {
+                "name": "BCP bubble graphic colour",
+                "description": "The BCP bubble graphic colour options for the ink cartridges are magenta, black, or tri colour."
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "The ink cartridges are compatible with Epson, HP, Canon, and Brother brands."
+            },
+            {
+                "name": "Box contents",
+                "description": "Each pack of ink cartridges contains ink cartridges."
+            },
+            {
+                "name": "Colour ink volume",
+                "description": "The available colour ink volume options for the ink cartridges are 130 and 400."
+            },
+            {
+                "name": "OEM code",
+                "description": "The OEM codes for the ink cartridges are c13t05964010, n9j72ae, c13t05974010, c13t03414010, and c13t00840110."
+            },
+            {
+                "name": "Type",
+                "description": "The ink cartridges are of the original type."
+            },
+            {
+                "name": "Colour",
+                "description": "The ink cartridges are in colour."
+            },
+            {
+                "name": "Colour ink cartridges quantity",
+                "description": "Each pack of ink cartridges contains 3 colour ink cartridges."
+            }
+        ]
+    },
+    "Networking Cables": {
+        "name": "Networking Cables",
+        "description": "Cables used for networking purposes.",
+        "attributes": [
+            {
+                "name": "Cable length",
+                "description": "Length of the cable.",
+                "examples": [
+                    "10",
+                    "0.5",
+                    "5",
+                    "2",
+                    "15"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "Colour of the cable.",
+                "examples": [
+                    "yellow",
+                    "blue",
+                    "red",
+                    "gray",
+                    "green"
+                ]
+            },
+            {
+                "name": "Cable standard",
+                "description": "Standard of the cable.",
+                "examples": [
+                    "cat 6",
+                    "cat 5",
+                    "cat 5e",
+                    "cat6a",
+                    "cat5e"
+                ]
+            },
+            {
+                "name": "Connector contacts plating",
+                "description": "Plating material used for connector contacts.",
+                "examples": [
+                    "gold"
+                ]
+            },
+            {
+                "name": "Conductor type",
+                "description": "Type of conductor used in the cable.",
+                "examples": [
+                    "stranded"
+                ]
+            },
+            {
+                "name": "Connector(s)",
+                "description": "Type of connector(s) used in the cable.",
+                "examples": [
+                    "rj45",
+                    "rj45m"
+                ]
+            }
+        ]
+    },
+    "Headphones speakers and accessories": {
+        "name": "Headphones speakers and accessories",
+        "description": "Products that are related to headphones, speakers, and their accessories.",
+        "attributes": [
+            {
+                "name": "Bluetooth",
+                "description": "Specifies if the product has Bluetooth connectivity.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the product.",
+                "examples": [
+                    "pink",
+                    "black",
+                    "white",
+                    "blue",
+                    "red"
+                ]
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "The brands that the product is compatible with.",
+                "examples": [
+                    "avaya",
+                    "samsung",
+                    "sony ericsson",
+                    "jabra"
+                ]
+            },
+            {
+                "name": "Subwoofer connectivity",
+                "description": "Specifies if the product has subwoofer connectivity."
+            },
+            {
+                "name": "Connectivity technology",
+                "description": "The technology used for connectivity.",
+                "examples": [
+                    "wireless",
+                    "wired"
+                ]
+            },
+            {
+                "name": "Ear coupling",
+                "description": "The type of ear coupling.",
+                "examples": [
+                    "circumaural",
+                    "intraaural"
+                ]
+            },
+            {
+                "name": "Product type",
+                "description": "The type of product.",
+                "examples": [
+                    "headphones",
+                    "headset",
+                    "stereo portable speaker",
+                    "cable"
+                ]
+            },
+            {
+                "name": "Headset type",
+                "description": "The type of headset.",
+                "examples": [
+                    "binaural",
+                    "monaural"
+                ]
+            },
+            {
+                "name": "Rechargeable",
+                "description": "Specifies if the product is rechargeable.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Microphone type",
+                "description": "The type of microphone.",
+                "examples": [
+                    "boom"
+                ]
+            },
+            {
+                "name": "RMS rated power",
+                "description": "The RMS rated power of the product.",
+                "examples": [
+                    "300 watt"
+                ]
+            },
+            {
+                "name": "Compatible products",
+                "description": "The products that are compatible with this product.",
+                "examples": [
+                    "xbox",
+                    "xbox one"
+                ]
+            },
+            {
+                "name": "Recommended usage",
+                "description": "The recommended usage for the product.",
+                "examples": [
+                    "sports",
+                    "gaming"
+                ]
+            }
+        ]
+    },
+    "Keyboards and mice": {
+        "name": "Keyboards and mice",
+        "description": "Products that are used for inputting data and controlling the computer.",
+        "attributes": [
+            {
+                "name": "Connectivity technology",
+                "description": "The method used to connect the keyboard or mouse to the computer.",
+                "examples": [
+                    "wired",
+                    "wireless"
+                ]
+            },
+            {
+                "name": "Keyboard layout",
+                "description": "The arrangement of keys on the keyboard.",
+                "examples": [
+                    "azerty",
+                    "qwerty",
+                    "qwertz"
+                ]
+            },
+            {
+                "name": "I/O ports",
+                "description": "The input/output ports available on the keyboard or mouse.",
+                "examples": [
+                    "usb"
+                ]
+            },
+            {
+                "name": "Purpose",
+                "description": "The intended use of the keyboard or mouse.",
+                "examples": [
+                    "gaming",
+                    "office",
+                    "travel"
+                ]
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the keyboard or mouse.",
+                "examples": [
+                    "black",
+                    "white",
+                    "grey",
+                    "red",
+                    "gray"
+                ]
+            },
+            {
+                "name": "HP segment",
+                "description": "The target market segment for the keyboard or mouse.",
+                "examples": [
+                    "business"
+                ]
+            },
+            {
+                "name": "Pointing device",
+                "description": "The type of pointing device included with the keyboard or mouse.",
+                "examples": [
+                    "trackball",
+                    "touchpad"
+                ]
+            },
+            {
+                "name": "Sensor type",
+                "description": "The type of sensor used in the mouse.",
+                "examples": [
+                    "optical"
+                ]
+            },
+            {
+                "name": "Rechargeable",
+                "description": "Whether the keyboard or mouse is rechargeable.",
+                "examples": [
+                    "yes"
+                ]
+            },
+            {
+                "name": "Power source type",
+                "description": "The type of power source used by the keyboard or mouse.",
+                "examples": [
+                    "usb"
+                ]
+            },
+            {
+                "name": "Movement detection technology",
+                "description": "The technology used to detect movement in the mouse.",
+                "examples": [
+                    "laser",
+                    "optical",
+                    "trackball"
+                ]
+            },
+            {
+                "name": "Form factor",
+                "description": "The physical form factor of the keyboard or mouse.",
+                "examples": [
+                    "ambidextrous"
+                ]
+            },
+            {
+                "name": "Device interface",
+                "description": "The interface used to connect the keyboard or mouse to the computer.",
+                "examples": [
+                    "usb",
+                    "rf wireless",
+                    "bluetooth"
+                ]
+            },
+            {
+                "name": "Buttons quantity",
+                "description": "The number of buttons on the mouse.",
+                "examples": [
+                    "5"
+                ]
+            },
+            {
+                "name": "Keyboard language",
+                "description": "The language layout of the keyboard.",
+                "examples": [
+                    "italian",
+                    "german",
+                    "us english",
+                    "french",
+                    "norwegian"
+                ]
+            },
+            {
+                "name": "Keyboard key switch",
+                "description": "The type of key switch used in the keyboard.",
+                "examples": [
+                    "mechanical"
+                ]
+            },
+            {
+                "name": "Scroll type",
+                "description": "The type of scrolling mechanism in the mouse.",
+                "examples": [
+                    "touch",
+                    "ring"
+                ]
+            },
+            {
+                "name": "Recommended usage",
+                "description": "The recommended usage scenario for the keyboard or mouse.",
+                "examples": [
+                    "office",
+                    "pc",
+                    "gaming"
+                ]
+            }
+        ]
+    }
+}

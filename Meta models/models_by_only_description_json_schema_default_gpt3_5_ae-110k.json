@@ -1,0 +1,442 @@
+{
+    "Lure": {
+        "name": "Lure",
+        "description": "A product category for fishing lures.",
+        "attributes": [
+            {
+                "name": "Model Number",
+                "description": "The unique identifier assigned to a specific lure model."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The name of the brand that manufactures the lure."
+            },
+            {
+                "name": "Weight",
+                "description": "The weight of the lure in grams."
+            },
+            {
+                "name": "Material",
+                "description": "The material used to make the lure."
+            },
+            {
+                "name": "Length",
+                "description": "The length of the lure in centimeters."
+            },
+            {
+                "name": "Color",
+                "description": "The color of the lure."
+            },
+            {
+                "name": "Lure Type",
+                "description": "The type or category of the lure."
+            },
+            {
+                "name": "Position",
+                "description": "The recommended fishing position for using the lure."
+            },
+            {
+                "name": "Action",
+                "description": "The action or movement of the lure in water."
+            },
+            {
+                "name": "Item",
+                "description": "The specific item or variant of the lure."
+            },
+            {
+                "name": "Quantity",
+                "description": "The number of lures included in a package or set."
+            },
+            {
+                "name": "Size",
+                "description": "The size of the lure, usually measured in length or weight."
+            }
+        ]
+    },
+    "Baseball Caps": {
+        "name": "Baseball Caps",
+        "description": "Baseball caps are a type of headwear commonly worn in sports and casual settings.",
+        "attributes": [
+            {
+                "name": "Pattern",
+                "description": "Pattern refers to the design or print on the baseball cap."
+            },
+            {
+                "name": "Brand Name",
+                "description": "Brand Name indicates the manufacturer or company that produces the baseball cap."
+            },
+            {
+                "name": "Gender",
+                "description": "Gender specifies the intended audience for the baseball cap, whether it is for men, women, or unisex."
+            },
+            {
+                "name": "Style",
+                "description": "Style describes the overall aesthetic or fashion of the baseball cap."
+            },
+            {
+                "name": "Material",
+                "description": "Material refers to the fabric or material used in the construction of the baseball cap."
+            },
+            {
+                "name": "Department Name",
+                "description": "Department Name indicates the specific department or category the baseball cap belongs to within a store or brand."
+            },
+            {
+                "name": "Model Number",
+                "description": "Model Number is a unique identifier assigned to a specific baseball cap model."
+            }
+        ]
+    },
+    "Swimwear": {
+        "name": "Swimwear",
+        "description": "Swimwear is a category of clothing designed to be worn while swimming or engaging in water-based activities.",
+        "attributes": [
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the swimwear product."
+            },
+            {
+                "name": "Pattern",
+                "description": "The pattern or design of the swimwear product."
+            },
+            {
+                "name": "Gender",
+                "description": "The gender for which the swimwear product is designed."
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number assigned to the swimwear product."
+            },
+            {
+                "name": "Color",
+                "description": "The color of the swimwear product."
+            },
+            {
+                "name": "Style",
+                "description": "The style or cut of the swimwear product."
+            },
+            {
+                "name": "Feature",
+                "description": "Special features or characteristics of the swimwear product."
+            },
+            {
+                "name": "Description",
+                "description": "A detailed description of the swimwear product."
+            },
+            {
+                "name": "Season",
+                "description": "The season or time of year the swimwear product is suitable for."
+            }
+        ]
+    },
+    "Helmet": {
+        "name": "Helmet",
+        "description": "Protective headgear worn by people engaged in sports or other activities.",
+        "attributes": [
+            {
+                "name": "Sport",
+                "description": "The specific sport or activity for which the helmet is designed."
+            },
+            {
+                "name": "Material",
+                "description": "The substance or substances used to make the helmet."
+            },
+            {
+                "name": "Applicable People",
+                "description": "The target group or individuals for whom the helmet is suitable."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The name of the brand that manufactures the helmet."
+            },
+            {
+                "name": "Feature",
+                "description": "Distinctive characteristics or functionalities of the helmet."
+            },
+            {
+                "name": "Style",
+                "description": "The aesthetic design or appearance of the helmet."
+            },
+            {
+                "name": "Season",
+                "description": "The specific season or weather conditions for which the helmet is suitable."
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique identifier assigned to a particular helmet model."
+            },
+            {
+                "name": "Head Circumference",
+                "description": "The measurement of the circumference of the head for which the helmet is designed."
+            }
+        ]
+    },
+    "Shirts": {
+        "name": "Shirts",
+        "description": "A category of clothing items that are worn on the upper body.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The type of sport for which the shirt is designed."
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for wearing the shirt."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The name of the brand that manufactures the shirt."
+            },
+            {
+                "name": "Sleeve Length(cm)",
+                "description": "The length of the sleeves of the shirt in centimeters."
+            },
+            {
+                "name": "Fabric Type",
+                "description": "The type of fabric used in making the shirt."
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number assigned to the shirt."
+            },
+            {
+                "name": "Material",
+                "description": "The primary material used in making the shirt."
+            },
+            {
+                "name": "Feature",
+                "description": "A notable feature or characteristic of the shirt."
+            },
+            {
+                "name": "Style",
+                "description": "The overall style or design of the shirt."
+            }
+        ]
+    },
+    "Fishing Rod": {
+        "name": "Fishing Rod",
+        "description": "A product category for fishing rods.",
+        "attributes": [
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the fishing rod."
+            },
+            {
+                "name": "Material",
+                "description": "The material used to make the fishing rod."
+            },
+            {
+                "name": "Model Number",
+                "description": "The model number of the fishing rod."
+            },
+            {
+                "name": "Section",
+                "description": "The number of sections the fishing rod has."
+            },
+            {
+                "name": "Hardness",
+                "description": "The hardness level of the fishing rod."
+            },
+            {
+                "name": "Power",
+                "description": "The power rating of the fishing rod."
+            }
+        ]
+    },
+    "Eyewear": {
+        "name": "Eyewear",
+        "description": "Eyewear is a category of products that are worn on the face to protect the eyes or for fashion purposes.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The specific sport or activity for which the eyewear is designed."
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for which the eyewear is designed."
+            },
+            {
+                "name": "Name",
+                "description": "The unique name or model of the eyewear product."
+            },
+            {
+                "name": "Lens Height",
+                "description": "The vertical measurement of the eyewear lens."
+            },
+            {
+                "name": "Lens Width",
+                "description": "The horizontal measurement of the eyewear lens."
+            },
+            {
+                "name": "Model Number",
+                "description": "The specific model number assigned to the eyewear product."
+            },
+            {
+                "name": "Frame Material",
+                "description": "The material used for the frame of the eyewear product."
+            },
+            {
+                "name": "Lenses Optical Attribute",
+                "description": "The specific optical attribute of the eyewear lenses."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand or manufacturer of the eyewear product."
+            },
+            {
+                "name": "Feature",
+                "description": "A notable feature or characteristic of the eyewear product."
+            },
+            {
+                "name": "Function",
+                "description": "The intended function or purpose of the eyewear product."
+            },
+            {
+                "name": "Frame Color",
+                "description": "The color of the frame of the eyewear product."
+            },
+            {
+                "name": "Lenses Material",
+                "description": "The material used for the lenses of the eyewear product."
+            },
+            {
+                "name": "Lenses Color",
+                "description": "The color of the lenses of the eyewear product."
+            },
+            {
+                "name": "Style",
+                "description": "The specific style or design of the eyewear product."
+            },
+            {
+                "name": "Eyewear Type",
+                "description": "The general type or category of the eyewear product."
+            }
+        ]
+    },
+    "Guitar": {
+        "name": "Guitar",
+        "description": "A musical instrument with various attributes used for playing melodies and chords.",
+        "attributes": [
+            {
+                "name": "Back / Side Material",
+                "description": "The material used for the back and sides of the guitar body."
+            },
+            {
+                "name": "Body Material",
+                "description": "The material used for the guitar body."
+            },
+            {
+                "name": "Fingerboard Material",
+                "description": "The material used for the fingerboard of the guitar."
+            },
+            {
+                "name": "Pickup",
+                "description": "A device used to capture the sound of the guitar and convert it into an electrical signal."
+            },
+            {
+                "name": "Tone Position",
+                "description": "The position on the guitar where the tone can be adjusted."
+            },
+            {
+                "name": "Bow Material",
+                "description": "The material used for the bow of a guitar bow."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The name of the brand that manufactures the guitar."
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique identifier assigned to a specific guitar model."
+            },
+            {
+                "name": "String Winder",
+                "description": "A tool used for winding and unwinding the strings of a guitar."
+            }
+        ]
+    },
+    "Shorts": {
+        "name": "Shorts",
+        "description": "Comfortable and stylish shorts for various activities.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The type of sport or activity the shorts are designed for."
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for wearing the shorts."
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number of the shorts."
+            },
+            {
+                "name": "Pattern",
+                "description": "The pattern or design on the shorts."
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the shorts."
+            },
+            {
+                "name": "Feature",
+                "description": "Special features or functionalities of the shorts."
+            },
+            {
+                "name": "Style",
+                "description": "The style or cut of the shorts."
+            },
+            {
+                "name": "Material",
+                "description": "The material used to make the shorts."
+            },
+            {
+                "name": "Color",
+                "description": "The color of the shorts."
+            },
+            {
+                "name": "Fabric Type",
+                "description": "The type of fabric used in the shorts."
+            },
+            {
+                "name": "Description",
+                "description": "A detailed description of the shorts."
+            },
+            {
+                "name": "Item",
+                "description": "The specific item or product variant of the shorts."
+            }
+        ]
+    },
+    "Stove": {
+        "name": "Stove",
+        "description": "Stove is a product category that includes various types of stoves used for cooking or heating purposes.",
+        "attributes": [
+            {
+                "name": "Fuel",
+                "description": "Fuel is the type of substance used to power the stove, such as gas, electric, or wood."
+            },
+            {
+                "name": "Stove Type",
+                "description": "Stove Type refers to the specific design or style of the stove, such as freestanding, built-in, or portable."
+            },
+            {
+                "name": "Brand Name",
+                "description": "Brand Name is the name of the company or manufacturer that produces the stove."
+            },
+            {
+                "name": "Material",
+                "description": "Material refers to the substance or combination of substances used to construct the stove, such as stainless steel, cast iron, or ceramic."
+            },
+            {
+                "name": "Applicable Seasoning Type",
+                "description": "Applicable Seasoning Type indicates the type of seasoning or fuel additive that can be used with the stove, such as charcoal, pellets, or propane."
+            },
+            {
+                "name": "Model",
+                "description": "Model is the specific product model or number assigned to the stove by the manufacturer."
+            }
+        ]
+    }
+}

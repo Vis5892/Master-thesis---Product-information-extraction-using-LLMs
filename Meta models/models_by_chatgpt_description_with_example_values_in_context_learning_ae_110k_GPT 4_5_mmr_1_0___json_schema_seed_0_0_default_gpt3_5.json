@@ -1,0 +1,991 @@
+{
+    "Lure": {
+        "name": "Lure",
+        "description": "Fishing lure used to attract and catch fish.",
+        "attributes": [
+            {
+                "name": "Model Number",
+                "description": "Unique identifier assigned to the lure model.",
+                "examples": [
+                    "YA24a",
+                    "YA180",
+                    "YA332",
+                    "SK033",
+                    "7508"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "Name of the brand that produces the lure.",
+                "examples": [
+                    "SEAPESCA",
+                    "FISH KING",
+                    "MEREKING",
+                    "ALLBLUE",
+                    "FTK"
+                ]
+            },
+            {
+                "name": "Weight",
+                "description": "Weight of the lure in grams.",
+                "examples": [
+                    "11g",
+                    "4.5g",
+                    "0.6g",
+                    "5.5g",
+                    "19g"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "Material used to make the lure.",
+                "examples": [
+                    "Metal",
+                    "Zinc Alloy"
+                ]
+            },
+            {
+                "name": "Length",
+                "description": "Length of the lure in millimeters or centimeters.",
+                "examples": [
+                    "55mm",
+                    "80mm",
+                    "50mm",
+                    "3.5cm",
+                    "55mm 65mm 75mm"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "Color of the lure.",
+                "examples": [
+                    "Green"
+                ]
+            },
+            {
+                "name": "Lure Type",
+                "description": "Type or category of the lure.",
+                "examples": [
+                    "VIB",
+                    "Minnow",
+                    "Hard Fishing Lure",
+                    "Hard Bait",
+                    "Soft Lure"
+                ]
+            },
+            {
+                "name": "Position",
+                "description": "Specific position or code associated with the lure.",
+                "examples": [
+                    "YDY7414"
+                ]
+            },
+            {
+                "name": "Action",
+                "description": "Behavior or movement pattern of the lure in water.",
+                "examples": [
+                    "Topwater",
+                    "Floating",
+                    "Suspend",
+                    "Slowly Sinking",
+                    "Sinking"
+                ]
+            },
+            {
+                "name": "Item",
+                "description": "Specific item or set of items included in the lure package.",
+                "examples": [
+                    "Spinner Bait",
+                    "Hard Plastic Minow Lures for Fishing Artificial Crankbait Swim Baits",
+                    "Mixed Color Metal Spoon Fishing Lure Kits"
+                ]
+            },
+            {
+                "name": "Quantity",
+                "description": "Number of lures included in a package.",
+                "examples": [
+                    "3pcs/lot",
+                    "10pcs/lot",
+                    "12pcs/lot"
+                ]
+            },
+            {
+                "name": "Size",
+                "description": "Size or dimensions of the lure.",
+                "examples": [
+                    "1#2#3#4#5#",
+                    "8cm",
+                    "3.5g / 2.5g / 1.5g",
+                    "6.5cm",
+                    "5.1cm"
+                ]
+            }
+        ]
+    },
+    "Baseball Caps": {
+        "name": "Baseball Caps",
+        "description": "Baseball caps are a type of headwear commonly worn for casual and sporty occasions.",
+        "attributes": [
+            {
+                "name": "Pattern",
+                "description": "The pattern of the baseball cap.",
+                "examples": [
+                    "Print",
+                    "Solid",
+                    "Cartoon",
+                    "Letter",
+                    "Patchwork"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the baseball cap.",
+                "examples": [
+                    "XEONGKVI",
+                    "IOTTG",
+                    "CLIMATE",
+                    "Laamei",
+                    "ROPALIA"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The gender for which the baseball cap is designed.",
+                "examples": [
+                    "Unisex",
+                    "Women",
+                    "Men"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The style of the baseball cap.",
+                "examples": [
+                    "Casual",
+                    "Snapback"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used in the construction of the baseball cap.",
+                "examples": [
+                    "Cotton",
+                    "Fur",
+                    "Linen",
+                    "Leather"
+                ]
+            },
+            {
+                "name": "Department Name",
+                "description": "The department or age group for which the baseball cap is intended.",
+                "examples": [
+                    "Children",
+                    "Adult"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The model number of the baseball cap.",
+                "examples": [
+                    "FBI",
+                    "Baseball Caps",
+                    "Baseball Cap",
+                    "SEAL Seal Tactical Cap for Men",
+                    "Z-5924"
+                ]
+            }
+        ]
+    },
+    "Swimwear": {
+        "name": "Swimwear",
+        "description": "Swimwear is a category of clothing designed for swimming or other water-based activities.",
+        "attributes": [
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the swimwear product.",
+                "examples": [
+                    "Womail",
+                    "ZAFUL",
+                    "CUPSHE",
+                    "NAKIAEOI",
+                    "MUQGEW"
+                ]
+            },
+            {
+                "name": "Pattern",
+                "description": "The pattern or design of the swimwear product.",
+                "examples": [
+                    "Fireworks Print",
+                    "Solid",
+                    "Print",
+                    "Dot",
+                    "Cartoon"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The target gender for the swimwear product.",
+                "examples": [
+                    "Men",
+                    "Women",
+                    "Girls",
+                    "Boys",
+                    "Girls Swimwear"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number of the swimwear product.",
+                "examples": [
+                    "Y182",
+                    "One Pieces Swimsuit Set",
+                    "sw0640",
+                    "Swimming trunks",
+                    "Swimsuit"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the swimwear product.",
+                "examples": [
+                    "Yellow",
+                    "Green",
+                    "Black"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The style or design of the swimwear product.",
+                "examples": [
+                    "Sexy",
+                    "Bandage Bikini Top",
+                    "Swimwear Women",
+                    "Swimming Briefs",
+                    "2017 Kids Swimsuit"
+                ]
+            },
+            {
+                "name": "Feature",
+                "description": "The special features or characteristics of the swimwear product.",
+                "examples": [
+                    "Leopard High Cut Sexy One Piece Swimsuit",
+                    "One-piece Swim",
+                    "High Cut",
+                    "Bikini Top Push-up",
+                    "Mesh"
+                ]
+            },
+            {
+                "name": "Description",
+                "description": "A brief description of the swimwear product.",
+                "examples": [
+                    "Men Swimwear",
+                    "Mens Swimming Boxers Trunks",
+                    "Sexy Men's Swimwear",
+                    "Men's Swimwear Swimsuits",
+                    "Men Bathing Suits Swimming"
+                ]
+            },
+            {
+                "name": "Season",
+                "description": "The season or occasion for which the swimwear product is suitable.",
+                "examples": [
+                    "Summer Beachwear",
+                    "Summer"
+                ]
+            }
+        ]
+    },
+    "Helmet": {
+        "name": "Helmet",
+        "description": "Protective headgear for various sports and activities.",
+        "attributes": [
+            {
+                "name": "Sport",
+                "description": "The specific sport or activity the helmet is designed for.",
+                "examples": [
+                    "Skiing",
+                    "Riding",
+                    "Skating",
+                    "Rock Climbing"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The materials used in the construction of the helmet.",
+                "examples": [
+                    "ABS",
+                    "Foam padded inside"
+                ]
+            },
+            {
+                "name": "Applicable People",
+                "description": "The target demographic for the helmet.",
+                "examples": [
+                    "Men",
+                    "Child",
+                    "Women"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand or manufacturer of the helmet.",
+                "examples": [
+                    "MagiDeal",
+                    "LumiParty",
+                    "OSHOW",
+                    "NANDN",
+                    "Maxkare"
+                ]
+            },
+            {
+                "name": "Feature",
+                "description": "Key features or functionalities of the helmet.",
+                "examples": [
+                    "Skiing Helmet",
+                    "Bicycle Cycling Helmet",
+                    "Ultralight"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The style or design of the helmet.",
+                "examples": [
+                    "Half-covered",
+                    "Portable"
+                ]
+            },
+            {
+                "name": "Season",
+                "description": "The season or weather conditions the helmet is suitable for.",
+                "examples": [
+                    "Winter",
+                    "Universal"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number or identifier of the helmet.",
+                "examples": [
+                    "Safety Helmet",
+                    "Tactical Helmet Cover For MICH 2000",
+                    "Snowboard Helmet",
+                    "Safety Helmet",
+                    "Tactical Fast Helmet Cover"
+                ]
+            },
+            {
+                "name": "Head Circumference",
+                "description": "The range of head circumferences the helmet can accommodate.",
+                "examples": [
+                    "52-61 CM",
+                    "59cm",
+                    "54-62cm",
+                    "52cm",
+                    "54-60cm"
+                ]
+            }
+        ]
+    },
+    "Shirts": {
+        "name": "Shirts",
+        "description": "Shirts for various sports and activities.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The type of sport or activity the shirt is designed for.",
+                "examples": [
+                    "Basketball",
+                    "Yoga",
+                    "Soccer",
+                    "Ice Hockey",
+                    "Cycling"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for the shirt.",
+                "examples": [
+                    "Men",
+                    "Women",
+                    "Boys"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the shirt.",
+                "examples": [
+                    "BONJEAN",
+                    "Uncle GG",
+                    "ROYALWAY",
+                    "Dueweer",
+                    "Dwayne"
+                ]
+            },
+            {
+                "name": "Sleeve Length(cm)",
+                "description": "The length of the sleeves in centimeters.",
+                "examples": [
+                    "Short",
+                    "Sleeveless",
+                    "Full"
+                ]
+            },
+            {
+                "name": "Fabric Type",
+                "description": "The type of fabric used for the shirt.",
+                "examples": [
+                    "Jersey",
+                    "Fleece"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The model number of the shirt.",
+                "examples": [
+                    "BONJEAN",
+                    "MT19166",
+                    "33",
+                    "RIM7066BS",
+                    "Lucas Scott"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used for the shirt.",
+                "examples": [
+                    "Polyester",
+                    "Cotton"
+                ]
+            },
+            {
+                "name": "Feature",
+                "description": "Special features of the shirt.",
+                "examples": [
+                    "Breathable",
+                    "Quick Dry"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The style or design of the shirt.",
+                "examples": [
+                    "Hoodie",
+                    "Camouflage",
+                    "Throwback Hockey Jersey",
+                    "Retro"
+                ]
+            }
+        ]
+    },
+    "Fishing Rod": {
+        "name": "Fishing Rod",
+        "description": "A product category for fishing rods.",
+        "attributes": [
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the fishing rod.",
+                "examples": [
+                    "TSURINOYA",
+                    "JSFUN",
+                    "YINGTOUMAN",
+                    "FISH KING",
+                    "JOHNCOO"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used in the fishing rod.",
+                "examples": [
+                    "TORAY Carbon",
+                    "Plastic",
+                    "Carbon",
+                    "Stainless Steel",
+                    "90% Carbon Fiber"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The model number of the fishing rod.",
+                "examples": [
+                    "Fishing Pole",
+                    "Fishing Rod Guide",
+                    "fg2001",
+                    "IM12 7wt 11ft 3in 4SEC",
+                    "FG161"
+                ]
+            },
+            {
+                "name": "Section",
+                "description": "The number of sections in the fishing rod.",
+                "examples": [
+                    "2",
+                    "1",
+                    "2 Sections",
+                    "4 Section",
+                    "4"
+                ]
+            },
+            {
+                "name": "Hardness",
+                "description": "The hardness of the fishing rod.",
+                "examples": [
+                    "Hard",
+                    "Superhard",
+                    "High Carbon Steel",
+                    "Soft"
+                ]
+            },
+            {
+                "name": "Power",
+                "description": "The power rating of the fishing rod.",
+                "examples": [
+                    "ML",
+                    "UL",
+                    "ML,M,MH,UL,L",
+                    "M",
+                    "XH"
+                ]
+            }
+        ]
+    },
+    "Eyewear": {
+        "name": "Eyewear",
+        "description": "Eyewear is a product category that includes various types of glasses and goggles for different sports and activities.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The sport type attribute specifies the specific sport or activity for which the eyewear is designed.",
+                "examples": [
+                    "Cycling",
+                    "Skiing",
+                    "Swim"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The gender attribute indicates the target gender for the eyewear.",
+                "examples": [
+                    "Unisex",
+                    "Men",
+                    "Boys",
+                    "Women",
+                    "Girls"
+                ]
+            },
+            {
+                "name": "Name",
+                "description": "The name attribute represents the specific name or model of the eyewear.",
+                "examples": [
+                    "Bicycle Glasses",
+                    "Sport Cycling Sunglasses",
+                    "Photochromic Eyewear Men",
+                    "Skiing Eyewear",
+                    "Ski Goggles"
+                ]
+            },
+            {
+                "name": "Lens Height",
+                "description": "The lens height attribute specifies the height of the lenses in the eyewear.",
+                "examples": [
+                    "1",
+                    "-",
+                    "100",
+                    "/",
+                    "n"
+                ]
+            },
+            {
+                "name": "Lens Width",
+                "description": "The lens width attribute indicates the width of the lenses in the eyewear.",
+                "examples": [
+                    "1",
+                    "-",
+                    "/",
+                    "n"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The model number attribute represents the unique identifier or model number of the eyewear.",
+                "examples": [
+                    "Discoloration",
+                    "C108G",
+                    "Skiing Eyewear",
+                    "Cycling Eyewear",
+                    "Ski Goggles"
+                ]
+            },
+            {
+                "name": "Frame Material",
+                "description": "The frame material attribute specifies the material used for the frame of the eyewear.",
+                "examples": [
+                    "Alloy",
+                    "TPU",
+                    "TR90",
+                    "PC",
+                    "Acetate"
+                ]
+            },
+            {
+                "name": "Lenses Optical Attribute",
+                "description": "The lenses optical attribute represents the optical properties or features of the lenses in the eyewear.",
+                "examples": [
+                    "Photochromic",
+                    "Polarized",
+                    "UV400",
+                    "Anti-Fog",
+                    "UV400 Protection"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand name attribute indicates the brand or manufacturer of the eyewear.",
+                "examples": [
+                    "INBIKE",
+                    "POLISI",
+                    "MELIFE",
+                    "WoSporT",
+                    "ZONEBIKE"
+                ]
+            },
+            {
+                "name": "Feature",
+                "description": "The feature attribute represents the special features or characteristics of the eyewear.",
+                "examples": [
+                    "Anti-uv",
+                    "Cycling Glasses",
+                    "Sports Sunglasses",
+                    "Camera Glass",
+                    "Skiing Goggles"
+                ]
+            },
+            {
+                "name": "Function",
+                "description": "The function attribute specifies the specific function or purpose of the eyewear.",
+                "examples": [
+                    "Cycling Glasses",
+                    "Bike Eyewear",
+                    "Skiing Goggles",
+                    "Road Bike Glasses"
+                ]
+            },
+            {
+                "name": "Frame Color",
+                "description": "The frame color attribute indicates the color of the frame of the eyewear.",
+                "examples": [
+                    "Multi",
+                    "Pink"
+                ]
+            },
+            {
+                "name": "Lenses Material",
+                "description": "The lenses material attribute specifies the material used for the lenses in the eyewear.",
+                "examples": [
+                    "Polarized",
+                    "Glass",
+                    "Plastic",
+                    "Polycarbonate"
+                ]
+            },
+            {
+                "name": "Lenses Color",
+                "description": "The lenses color attribute represents the color of the lenses in the eyewear.",
+                "examples": [
+                    "Multi",
+                    "Yellow"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The style attribute indicates the style or design of the eyewear.",
+                "examples": [
+                    "Cycling Sunglasses",
+                    "Sport"
+                ]
+            },
+            {
+                "name": "Eyewear Type",
+                "description": "The eyewear type attribute specifies the type or category of the eyewear.",
+                "examples": [
+                    "Sunglasses"
+                ]
+            }
+        ]
+    },
+    "Guitar": {
+        "name": "Guitar",
+        "description": "A musical instrument with various attributes used to produce sound.",
+        "attributes": [
+            {
+                "name": "Back / Side Material",
+                "description": "The material used for the back and sides of the guitar.",
+                "examples": [
+                    "Mahogany",
+                    "Basswood",
+                    "Spalted Maple Top",
+                    "eye poplar",
+                    "Maple"
+                ]
+            },
+            {
+                "name": "Body Material",
+                "description": "The material used for the body of the guitar.",
+                "examples": [
+                    "solid spruce",
+                    "Mahogany",
+                    "Basswood",
+                    "Maple",
+                    "eye poplar"
+                ]
+            },
+            {
+                "name": "Fingerboard Material",
+                "description": "The material used for the fingerboard of the guitar.",
+                "examples": [
+                    "Maple",
+                    "Rosewood",
+                    "Ebony",
+                    "Basswood",
+                    "Plastic"
+                ]
+            },
+            {
+                "name": "Bow Material",
+                "description": "The material used for the bow of the guitar.",
+                "examples": [
+                    "M",
+                    "African Mahogany Okoume",
+                    "Mahogany",
+                    "N",
+                    "Plastic"
+                ]
+            },
+            {
+                "name": "Tone Position",
+                "description": "The number of tone positions on the guitar.",
+                "examples": [
+                    "22",
+                    "18",
+                    "20",
+                    "24",
+                    "25"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique model number of the guitar.",
+                "examples": [
+                    "SR-R-D45C",
+                    "40-30",
+                    "6120",
+                    "electric guitar",
+                    "Relic LP electric guitar"
+                ]
+            },
+            {
+                "name": "Pickup",
+                "description": "The type of pickup used in the guitar.",
+                "examples": [
+                    "fishman",
+                    "Fishman",
+                    "EMG Pickups"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand name of the guitar.",
+                "examples": [
+                    "Cnbald",
+                    "firehawk",
+                    "TSAI",
+                    "Smiger",
+                    "Human"
+                ]
+            },
+            {
+                "name": "String Winder",
+                "description": "The type of string winder used for the guitar.",
+                "examples": [
+                    "Vintage",
+                    "Closed Knob"
+                ]
+            }
+        ]
+    },
+    "Shorts": {
+        "name": "Shorts",
+        "description": "Shorts are a type of clothing typically worn during sports or leisure activities.",
+        "attributes": [
+            {
+                "name": "Sport Type",
+                "description": "The type of sport for which the shorts are designed.",
+                "examples": [
+                    "Running",
+                    "Basketball",
+                    "Yoga",
+                    "Cycling"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for wearing the shorts.",
+                "examples": [
+                    "Men",
+                    "Women",
+                    "Boys"
+                ]
+            },
+            {
+                "name": "Model Number",
+                "description": "The unique identifier assigned to the shorts model.",
+                "examples": [
+                    "YEL5080",
+                    "JRDK035",
+                    "BONJEAN",
+                    "Aurora Trees Running Shorts Landscape Forest Nature",
+                    "YEL1004"
+                ]
+            },
+            {
+                "name": "Pattern",
+                "description": "The design pattern or style of the shorts.",
+                "examples": [
+                    "Print",
+                    "Solid",
+                    "Camouflage",
+                    "Letter",
+                    "Patchwork"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The brand or manufacturer of the shorts.",
+                "examples": [
+                    "Facecozy",
+                    "PARGO",
+                    "Vbiger",
+                    "DIQIAN",
+                    "Adidas"
+                ]
+            },
+            {
+                "name": "Feature",
+                "description": "Special features or characteristics of the shorts.",
+                "examples": [
+                    "Tight Shorts",
+                    "Butt Hip Enhancer",
+                    "Fitness Shorts",
+                    "Breathable"
+                ]
+            },
+            {
+                "name": "Style",
+                "description": "The overall style or fashion of the shorts.",
+                "examples": [
+                    "Leisure"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The primary material used in making the shorts.",
+                "examples": [
+                    "Polyester",
+                    "Cotton",
+                    "Faux Leather"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the shorts.",
+                "examples": [
+                    "Blue",
+                    "Colorful",
+                    "Black"
+                ]
+            },
+            {
+                "name": "Fabric Type",
+                "description": "The type of fabric used in making the shorts.",
+                "examples": [
+                    "Jersey"
+                ]
+            },
+            {
+                "name": "Description",
+                "description": "Additional descriptive information about the shorts.",
+                "examples": [
+                    "Men's Running Shorts",
+                    "Men Gasp Fitness Trousers Gay",
+                    "Sexy Mens Underwear",
+                    "Men Sweatpants Jogger"
+                ]
+            },
+            {
+                "name": "Item",
+                "description": "Additional item information related to the shorts."
+            }
+        ]
+    },
+    "Stove": {
+        "name": "Stove",
+        "description": "A product category for stoves used for cooking or heating purposes.",
+        "attributes": [
+            {
+                "name": "Fuel",
+                "description": "The type of fuel used to power the stove.",
+                "examples": [
+                    "Gas",
+                    "Butane",
+                    "Firewood",
+                    "Butagas LPG"
+                ]
+            },
+            {
+                "name": "Stove Type",
+                "description": "The specific type or design of the stove.",
+                "examples": [
+                    "Gas Stove",
+                    "Alcohol Stove"
+                ]
+            },
+            {
+                "name": "Brand Name",
+                "description": "The name of the brand that manufactures the stove.",
+                "examples": [
+                    "BRS",
+                    "OUTAD",
+                    "UNE ROAD"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used to construct the stove.",
+                "examples": [
+                    "Stainless Steel",
+                    "Aluminum Alloy"
+                ]
+            },
+            {
+                "name": "Applicable Seasoning Type",
+                "description": "The type of seasoning or fuel that can be used with the stove.",
+                "examples": [
+                    "Gas",
+                    "Butagas LPG",
+                    "-"
+                ]
+            },
+            {
+                "name": "Model",
+                "description": "The specific model or name of the stove.",
+                "examples": [
+                    "Gas Stove",
+                    "BRS-71",
+                    "Three Gas Burners",
+                    "FMS-122",
+                    "Outdoor Stove"
+                ]
+            }
+        ]
+    }
+}

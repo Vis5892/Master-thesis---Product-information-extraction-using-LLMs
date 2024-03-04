@@ -1,0 +1,326 @@
+{
+    "Shoes": {
+        "name": "Shoes",
+        "description": "A category for various types of shoes.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the shoes."
+            },
+            {
+                "name": "Gender",
+                "description": "The target gender for the shoes."
+            },
+            {
+                "name": "Model name",
+                "description": "The specific model name of the shoes."
+            },
+            {
+                "name": "Shoe type",
+                "description": "The type or style of the shoes."
+            },
+            {
+                "name": "Color",
+                "description": "The color of the shoes."
+            },
+            {
+                "name": "Size",
+                "description": "The size of the shoes."
+            }
+        ]
+    },
+    "Vitamin": {
+        "name": "Vitamin",
+        "description": "A category of products that provide essential nutrients to support overall health and well-being.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The specific brand or manufacturer of the vitamin product."
+            },
+            {
+                "name": "Supplement type",
+                "description": "The type of supplement, such as capsules, tablets, or gummies."
+            },
+            {
+                "name": "Dosage",
+                "description": "The recommended amount of the vitamin to be taken per serving."
+            },
+            {
+                "name": "Health benefit",
+                "description": "The specific health benefits that the vitamin provides, such as immune support or bone health."
+            },
+            {
+                "name": "Net content",
+                "description": "The total amount of the vitamin product in each package."
+            },
+            {
+                "name": "Item form",
+                "description": "The physical form of the vitamin, such as liquid, powder, or chewable."
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of units or servings included in each package."
+            }
+        ]
+    },
+    "Coffee": {
+        "name": "Coffee",
+        "description": "A category for all types of coffee products.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the coffee product."
+            },
+            {
+                "name": "Flavor",
+                "description": "The flavor of the coffee product."
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the coffee product is available."
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or weight of the coffee product."
+            },
+            {
+                "name": "Pack size",
+                "description": "The size of the pack in which the coffee product is sold."
+            },
+            {
+                "name": "Roast type",
+                "description": "The type of roast of the coffee product."
+            }
+        ]
+    },
+    "Toothbrush": {
+        "name": "Toothbrush",
+        "description": "A product category for toothbrushes.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the toothbrush."
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty feature of the toothbrush."
+            },
+            {
+                "name": "Age",
+                "description": "The recommended age group for the toothbrush."
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size of the toothbrush."
+            },
+            {
+                "name": "Power source",
+                "description": "The power source of the toothbrush."
+            },
+            {
+                "name": "Operation mode",
+                "description": "The operation mode of the toothbrush."
+            },
+            {
+                "name": "Color",
+                "description": "The color of the toothbrush."
+            }
+        ]
+    },
+    "Breakfast Cereal": {
+        "name": "Breakfast Cereal",
+        "description": "A category of food products typically consumed as a breakfast meal.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The name of the brand associated with the cereal product."
+            },
+            {
+                "name": "Sub brand",
+                "description": "The name of the sub brand associated with the cereal product."
+            },
+            {
+                "name": "Flavor",
+                "description": "The specific flavor of the cereal product."
+            },
+            {
+                "name": "Cereal type",
+                "description": "The type or variety of cereal product."
+            },
+            {
+                "name": "Net content",
+                "description": "The weight or volume of the cereal product."
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of units or servings in a pack of the cereal product."
+            },
+            {
+                "name": "Container",
+                "description": "The type of packaging or container used for the cereal product."
+            },
+            {
+                "name": "Specialty",
+                "description": "Any special features or characteristics of the cereal product."
+            }
+        ]
+    },
+    "Sunscreen": {
+        "name": "Sunscreen",
+        "description": "Protect your skin from harmful UV rays with our range of sunscreens.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "Choose from top brands for the best sun protection."
+            },
+            {
+                "name": "Specialty",
+                "description": "Find sunscreens for sensitive skin, kids, and sports activities."
+            },
+            {
+                "name": "Item form",
+                "description": "Discover sunscreens in various forms like lotions, sprays, and sticks."
+            },
+            {
+                "name": "Protection level",
+                "description": "Get the right level of sun protection with different SPF options."
+            },
+            {
+                "name": "Net content",
+                "description": "Find sunscreens in different sizes to suit your needs."
+            }
+        ]
+    },
+    "Conditioner": {
+        "name": "Conditioner",
+        "description": "Conditioner is a hair care product that helps to moisturize and nourish the hair.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "Brand is the name of the company that produces the conditioner."
+            },
+            {
+                "name": "Specialty",
+                "description": "Specialty refers to any unique features or benefits of the conditioner."
+            },
+            {
+                "name": "Item form",
+                "description": "Item form describes the physical form of the conditioner, such as liquid, cream, or spray."
+            },
+            {
+                "name": "Volume",
+                "description": "Volume indicates the quantity or size of the conditioner."
+            },
+            {
+                "name": "Hair type",
+                "description": "Hair type specifies the type of hair that the conditioner is suitable for."
+            },
+            {
+                "name": "Scent",
+                "description": "Scent refers to the fragrance or aroma of the conditioner."
+            }
+        ]
+    },
+    "Laundry Detergent": {
+        "name": "Laundry Detergent",
+        "description": "Laundry detergent is a product used for cleaning clothes.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the laundry detergent."
+            },
+            {
+                "name": "Specific uses",
+                "description": "The specific uses or purposes of the laundry detergent."
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the laundry detergent is available."
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or volume of the laundry detergent."
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size or quantity of the laundry detergent."
+            },
+            {
+                "name": "Specialty",
+                "description": "Any special features or characteristics of the laundry detergent."
+            }
+        ]
+    },
+    "Safety Mask": {
+        "name": "Safety Mask",
+        "description": "Protective masks designed to provide safety and prevent the spread of airborne particles.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand or manufacturer of the safety mask."
+            },
+            {
+                "name": "Net content",
+                "description": "The amount or volume of the safety mask."
+            },
+            {
+                "name": "Reusability",
+                "description": "Indicates whether the safety mask is reusable or disposable."
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for which the safety mask is designed."
+            },
+            {
+                "name": "Material",
+                "description": "The material used in the construction of the safety mask."
+            },
+            {
+                "name": "Mask type",
+                "description": "The specific type or style of the safety mask."
+            },
+            {
+                "name": "Color",
+                "description": "The color or color options available for the safety mask."
+            }
+        ]
+    },
+    "Tea": {
+        "name": "Tea",
+        "description": "A category of beverages made from the leaves of the Camellia sinensis plant, known for its various flavors and health benefits.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The specific brand or company that produces the tea."
+            },
+            {
+                "name": "Flavor",
+                "description": "The distinct taste or aroma of the tea."
+            },
+            {
+                "name": "Item form",
+                "description": "The physical form in which the tea is available, such as loose leaves, tea bags, or powdered form."
+            },
+            {
+                "name": "Net content",
+                "description": "The quantity or weight of the tea product."
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of units or servings in a package of tea."
+            },
+            {
+                "name": "Specialty",
+                "description": "Any unique or special characteristics of the tea, such as organic, herbal, or flavored."
+            },
+            {
+                "name": "Tea variety",
+                "description": "The specific type or variety of tea, such as green tea, black tea, or oolong tea."
+            },
+            {
+                "name": "Country",
+                "description": "The country of origin or production of the tea."
+            }
+        ]
+    }
+}

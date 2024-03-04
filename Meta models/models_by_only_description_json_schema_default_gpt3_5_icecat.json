@@ -1,0 +1,570 @@
+{
+    "Graphics Cards": {
+        "name": "Graphics Cards",
+        "description": "Graphics cards are hardware components that enhance the graphical performance of a computer system.",
+        "attributes": [
+            {
+                "name": "Graphics processor",
+                "description": "The graphics processor is responsible for rendering and displaying images on the screen."
+            },
+            {
+                "name": "Graphics card memory type",
+                "description": "The graphics card memory type determines the speed and efficiency of data storage and retrieval."
+            },
+            {
+                "name": "HDMI",
+                "description": "HDMI (High-Definition Multimedia Interface) is a digital audio/video interface used for connecting graphics cards to displays."
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The graphics card family refers to a group of graphics cards that share similar features and capabilities."
+            },
+            {
+                "name": "Discrete graphics card memory",
+                "description": "Discrete graphics card memory is dedicated memory used by the graphics card for processing and storing graphical data."
+            },
+            {
+                "name": "Graphics processor family",
+                "description": "The graphics processor family refers to a group of graphics processors that share similar architectures and capabilities."
+            }
+        ]
+    },
+    "Power products": {
+        "name": "Power products",
+        "description": "Products that provide power supply and battery backup for various devices.",
+        "attributes": [
+            {
+                "name": "Power supply unit (PSU) form factor",
+                "description": "The physical size and shape of the power supply unit."
+            },
+            {
+                "name": "80 PLUS certification",
+                "description": "Certification for power supplies that meet certain energy efficiency standards."
+            },
+            {
+                "name": "Purpose",
+                "description": "The intended use or application of the power product."
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the power product."
+            },
+            {
+                "name": "Output power capacity",
+                "description": "The maximum power output of the power product."
+            },
+            {
+                "name": "Total power",
+                "description": "The total power capacity of the power product."
+            },
+            {
+                "name": "Display type",
+                "description": "The type of display used on the power product."
+            },
+            {
+                "name": "Battery technology",
+                "description": "The technology used in the power product's battery."
+            },
+            {
+                "name": "Battery size(s)",
+                "description": "The size or sizes of the batteries used in the power product."
+            },
+            {
+                "name": "Battery voltage",
+                "description": "The voltage of the power product's battery."
+            },
+            {
+                "name": "Form factor",
+                "description": "The physical size and shape of the power product."
+            },
+            {
+                "name": "Cabling type",
+                "description": "The type of cables used in the power product."
+            },
+            {
+                "name": "Power supply type",
+                "description": "The type of power supply used in the power product."
+            },
+            {
+                "name": "Compatibility",
+                "description": "The devices or systems that the power product is compatible with."
+            },
+            {
+                "name": "Battery capacity",
+                "description": "The capacity or energy storage of the power product's battery."
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "The brands or manufacturers that the power product is compatible with."
+            },
+            {
+                "name": "Output power",
+                "description": "The power output of the power product."
+            },
+            {
+                "name": "Type",
+                "description": "The type or category of the power product."
+            },
+            {
+                "name": "Number of batteries included",
+                "description": "The number of batteries included with the power product."
+            },
+            {
+                "name": "Battery type",
+                "description": "The type of battery used in the power product."
+            }
+        ]
+    },
+    "Pcs and workstations": {
+        "name": "Pcs and workstations",
+        "description": "This category includes PCs and workstations for various professional and personal computing needs.",
+        "attributes": [
+            {
+                "name": "Chassis type",
+                "description": "The type of chassis used in the product."
+            },
+            {
+                "name": "Maximum internal memory supported by processor",
+                "description": "The maximum amount of internal memory that the processor can support."
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the product."
+            },
+            {
+                "name": "Processor manufacturer",
+                "description": "The manufacturer of the processor used in the product."
+            },
+            {
+                "name": "Total storage capacity",
+                "description": "The total storage capacity of the product."
+            },
+            {
+                "name": "HDD capacity",
+                "description": "The capacity of the hard disk drive (HDD) in the product."
+            },
+            {
+                "name": "Processor family",
+                "description": "The family of the processor used in the product."
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The family of the graphics card used in the product."
+            },
+            {
+                "name": "Product type",
+                "description": "The type of product."
+            },
+            {
+                "name": "Operating system installed",
+                "description": "The operating system installed on the product."
+            },
+            {
+                "name": "Panel type",
+                "description": "The type of panel used in the product."
+            },
+            {
+                "name": "Storage media",
+                "description": "The type of storage media used in the product."
+            },
+            {
+                "name": "Internal memory",
+                "description": "The internal memory capacity of the product."
+            },
+            {
+                "name": "Processor model",
+                "description": "The model of the processor used in the product."
+            },
+            {
+                "name": "SSD capacity",
+                "description": "The capacity of the solid-state drive (SSD) in the product."
+            },
+            {
+                "name": "Product family",
+                "description": "The family of the product."
+            },
+            {
+                "name": "Discrete graphics card memory",
+                "description": "The memory capacity of the discrete graphics card used in the product."
+            },
+            {
+                "name": "Processor codename",
+                "description": "The codename of the processor used in the product."
+            }
+        ]
+    },
+    "Motherboards": {
+        "name": "Motherboards",
+        "description": "Motherboards are the main circuit boards that connect all the components of a computer system.",
+        "attributes": [
+            {
+                "name": "Processor manufacturer",
+                "description": "The brand or company that manufactures the processor."
+            },
+            {
+                "name": "Processor socket",
+                "description": "The physical interface that connects the processor to the motherboard."
+            },
+            {
+                "name": "Supported processor sockets",
+                "description": "The types of processor sockets that are compatible with the motherboard."
+            },
+            {
+                "name": "Motherboard form factor",
+                "description": "The size and shape of the motherboard."
+            },
+            {
+                "name": "Motherboard chipset family",
+                "description": "The family or series of chipsets that the motherboard belongs to."
+            },
+            {
+                "name": "Motherboard chipset",
+                "description": "The specific chipset model used on the motherboard."
+            },
+            {
+                "name": "Power source type",
+                "description": "The type of power source required by the motherboard."
+            },
+            {
+                "name": "Component for",
+                "description": "The type of computer system or device that the motherboard is designed for."
+            },
+            {
+                "name": "Graphics card family",
+                "description": "The family or series of graphics cards that are compatible with the motherboard."
+            },
+            {
+                "name": "Cables included",
+                "description": "The type and number of cables included with the motherboard."
+            },
+            {
+                "name": "Controller interface type",
+                "description": "The type of interface used for connecting external devices to the motherboard."
+            }
+        ]
+    },
+    "Toner Cartridges": {
+        "name": "Toner Cartridges",
+        "description": "Toner cartridges are essential components for laser printers and copiers, providing high-quality prints and efficient performance.",
+        "attributes": [
+            {
+                "name": "Brand compatibility",
+                "description": "The toner cartridges are compatible with various printer brands, ensuring seamless integration and optimal printing results."
+            },
+            {
+                "name": "Quantity per pack",
+                "description": "Each pack of toner cartridges contains a specific quantity, allowing for convenient replacement and cost-effective printing."
+            },
+            {
+                "name": "Product colour",
+                "description": "The toner cartridges are available in different colours, enabling users to choose the one that suits their preferences or specific printing needs."
+            },
+            {
+                "name": "Colour toner page yield",
+                "description": "The toner cartridges offer a high page yield for colour printing, ensuring long-lasting performance and reducing the need for frequent replacements."
+            },
+            {
+                "name": "Printing colours",
+                "description": "The toner cartridges support multiple printing colours, allowing for vibrant and accurate reproduction of images and documents."
+            },
+            {
+                "name": "OEM code",
+                "description": "Each toner cartridge has a unique OEM code, facilitating easy identification and compatibility verification."
+            },
+            {
+                "name": "Black toner page yield",
+                "description": "The toner cartridges provide a high page yield for black printing, ensuring efficient and reliable output for text and monochrome documents."
+            },
+            {
+                "name": "Type",
+                "description": "The toner cartridges are available in different types, such as standard or high-capacity, catering to various printing requirements."
+            },
+            {
+                "name": "Supply type",
+                "description": "The toner cartridges are available as original equipment manufacturer (OEM) supplies, guaranteeing compatibility and optimal performance."
+            }
+        ]
+    },
+    "Computer Monitors": {
+        "name": "Computer Monitors",
+        "description": "A category of electronic displays used as computer screens.",
+        "attributes": [
+            {
+                "name": "Product colour",
+                "description": "The color of the computer monitor."
+            },
+            {
+                "name": "Display technology",
+                "description": "The technology used in the computer monitor's display."
+            },
+            {
+                "name": "Display",
+                "description": "The size of the computer monitor's display."
+            },
+            {
+                "name": "Screen shape",
+                "description": "The shape of the computer monitor's screen."
+            },
+            {
+                "name": "HD type",
+                "description": "The type of high-definition technology supported by the computer monitor."
+            },
+            {
+                "name": "3D",
+                "description": "Whether the computer monitor supports 3D display."
+            },
+            {
+                "name": "Display resolution",
+                "description": "The resolution of the computer monitor's display."
+            },
+            {
+                "name": "AMD FreeSync type",
+                "description": "The type of AMD FreeSync technology supported by the computer monitor."
+            },
+            {
+                "name": "Backlight type",
+                "description": "The type of backlight used in the computer monitor."
+            },
+            {
+                "name": "Panel type",
+                "description": "The type of panel used in the computer monitor's display."
+            },
+            {
+                "name": "Refresh rate",
+                "description": "The refresh rate of the computer monitor's display."
+            },
+            {
+                "name": "Display brightness (typical)",
+                "description": "The typical brightness level of the computer monitor's display."
+            },
+            {
+                "name": "Supported graphics resolutions",
+                "description": "The graphics resolutions supported by the computer monitor."
+            },
+            {
+                "name": "Touchscreen",
+                "description": "Whether the computer monitor has touchscreen functionality."
+            },
+            {
+                "name": "Market positioning",
+                "description": "The target market segment for the computer monitor."
+            },
+            {
+                "name": "Response time",
+                "description": "The response time of the computer monitor's display."
+            }
+        ]
+    },
+    "Ink Cartridges": {
+        "name": "Ink Cartridges",
+        "description": "Ink cartridges are essential for printing documents and images.",
+        "attributes": [
+            {
+                "name": "Printing colours",
+                "description": "The number of colours that can be printed with the ink cartridge."
+            },
+            {
+                "name": "Quantity per pack",
+                "description": "The number of ink cartridges included in each pack."
+            },
+            {
+                "name": "BCP bubble graphic colour",
+                "description": "The color of the BCP bubble graphic on the ink cartridge."
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "The brands of printers that the ink cartridge is compatible with."
+            },
+            {
+                "name": "Box contents",
+                "description": "The items included in the ink cartridge box."
+            },
+            {
+                "name": "Colour ink volume",
+                "description": "The volume of color ink in the cartridge."
+            },
+            {
+                "name": "OEM code",
+                "description": "The original equipment manufacturer code for the ink cartridge."
+            },
+            {
+                "name": "Type",
+                "description": "The type or model of the ink cartridge."
+            },
+            {
+                "name": "Colour",
+                "description": "The color of the ink cartridge."
+            },
+            {
+                "name": "Colour ink cartridges quantity",
+                "description": "The number of color ink cartridges included in the pack."
+            }
+        ]
+    },
+    "Networking Cables": {
+        "name": "Networking Cables",
+        "description": "Products in this category are used for networking purposes.",
+        "attributes": [
+            {
+                "name": "Cable length",
+                "description": "Specifies the length of the cable."
+            },
+            {
+                "name": "Product colour",
+                "description": "Indicates the color of the cable."
+            },
+            {
+                "name": "Cable standard",
+                "description": "Refers to the standard that the cable complies with."
+            },
+            {
+                "name": "Connector contacts plating",
+                "description": "Describes the plating material used on the connector contacts."
+            },
+            {
+                "name": "Conductor type",
+                "description": "Specifies the type of conductor used in the cable."
+            },
+            {
+                "name": "Connector(s)",
+                "description": "Refers to the type of connector(s) used in the cable."
+            }
+        ]
+    },
+    "Headphones speakers and accessories": {
+        "name": "Headphones speakers and accessories",
+        "description": "This category includes headphones, speakers, and accessories for audio devices.",
+        "attributes": [
+            {
+                "name": "Bluetooth",
+                "description": "Bluetooth technology for wireless connectivity."
+            },
+            {
+                "name": "Product colour",
+                "description": "Different color options available for the products."
+            },
+            {
+                "name": "Brand compatibility",
+                "description": "Compatible with specific brands of audio devices."
+            },
+            {
+                "name": "Subwoofer connectivity",
+                "description": "Ability to connect to a subwoofer for enhanced bass."
+            },
+            {
+                "name": "Connectivity technology",
+                "description": "Various connectivity options like Bluetooth, wired, or both."
+            },
+            {
+                "name": "Ear coupling",
+                "description": "Different types of ear coupling for headphones."
+            },
+            {
+                "name": "Product type",
+                "description": "Different types of products like headphones, speakers, or accessories."
+            },
+            {
+                "name": "Headset type",
+                "description": "Different types of headsets like over-ear, on-ear, or in-ear."
+            },
+            {
+                "name": "Rechargeable",
+                "description": "Products with rechargeable batteries."
+            },
+            {
+                "name": "Microphone type",
+                "description": "Different types of microphones available in the products."
+            },
+            {
+                "name": "RMS rated power",
+                "description": "Power rating of the products in RMS."
+            },
+            {
+                "name": "Compatible products",
+                "description": "Products compatible with specific audio devices or brands."
+            },
+            {
+                "name": "Recommended usage",
+                "description": "Recommended usage scenarios for the products."
+            }
+        ]
+    },
+    "Keyboards and mice": {
+        "name": "Keyboards and mice",
+        "description": "This category includes keyboards and mice for various purposes.",
+        "attributes": [
+            {
+                "name": "Connectivity technology",
+                "description": "The technology used to connect the keyboard or mouse to a device."
+            },
+            {
+                "name": "Keyboard layout",
+                "description": "The arrangement of keys on the keyboard."
+            },
+            {
+                "name": "I/O ports",
+                "description": "The input/output ports available on the keyboard or mouse."
+            },
+            {
+                "name": "Purpose",
+                "description": "The intended use or function of the keyboard or mouse."
+            },
+            {
+                "name": "Product colour",
+                "description": "The color of the keyboard or mouse."
+            },
+            {
+                "name": "HP segment",
+                "description": "The segment or target audience for the keyboard or mouse."
+            },
+            {
+                "name": "Pointing device",
+                "description": "The type of pointing device included with the keyboard or mouse."
+            },
+            {
+                "name": "Sensor type",
+                "description": "The type of sensor used for tracking movement on the mouse."
+            },
+            {
+                "name": "Rechargeable",
+                "description": "Indicates whether the keyboard or mouse is rechargeable."
+            },
+            {
+                "name": "Power source type",
+                "description": "The type of power source used for the keyboard or mouse."
+            },
+            {
+                "name": "Movement detection technology",
+                "description": "The technology used to detect movement on the mouse."
+            },
+            {
+                "name": "Form factor",
+                "description": "The physical form or shape of the keyboard or mouse."
+            },
+            {
+                "name": "Device interface",
+                "description": "The interface used to connect the keyboard or mouse to a device."
+            },
+            {
+                "name": "Buttons quantity",
+                "description": "The number of buttons on the mouse."
+            },
+            {
+                "name": "Keyboard language",
+                "description": "The language layout of the keyboard."
+            },
+            {
+                "name": "Keyboard key switch",
+                "description": "The type of key switch used in the keyboard."
+            },
+            {
+                "name": "Scroll type",
+                "description": "The type of scrolling mechanism on the mouse."
+            },
+            {
+                "name": "Recommended usage",
+                "description": "The recommended usage or application for the keyboard or mouse."
+            }
+        ]
+    }
+}

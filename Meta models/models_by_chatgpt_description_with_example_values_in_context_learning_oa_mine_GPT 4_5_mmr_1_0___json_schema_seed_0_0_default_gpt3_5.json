@@ -1,0 +1,1208 @@
+{
+    "Shoes": {
+        "name": "Shoes",
+        "description": "Footwear designed for various activities and occasions.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The name of the shoe brand.",
+                "examples": [
+                    "Ellie Shoes",
+                    "Holy Land Market",
+                    "Crocs",
+                    "Finn Comfort",
+                    "Timberland"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for the shoes.",
+                "examples": [
+                    "Women's",
+                    "Unisex",
+                    "Men's",
+                    "unisex",
+                    "womens"
+                ]
+            },
+            {
+                "name": "Model name",
+                "description": "The specific model name or number of the shoes.",
+                "examples": [
+                    "8400",
+                    "Jerusalem Style II",
+                    "Jayna",
+                    "Adana",
+                    "Radler Trail Camper"
+                ]
+            },
+            {
+                "name": "Shoe type",
+                "description": "The style or type of shoes.",
+                "examples": [
+                    "Biblical Sandals",
+                    "Ballet Flat",
+                    "Oxford",
+                    "Moccasin",
+                    "Wing-Tip Oxford"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the shoes.",
+                "examples": [
+                    "Red Patent",
+                    "Brown",
+                    "Nautical Navy",
+                    "Lime",
+                    "Champagne Deerskin"
+                ]
+            },
+            {
+                "name": "Size",
+                "description": "The size of the shoes.",
+                "examples": [
+                    "14 M US",
+                    "4 M US",
+                    "15 M US",
+                    "8 M US",
+                    "12 D"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used to make the shoes.",
+                "examples": [
+                    "Leather",
+                    "Deerskin",
+                    "Cowhide",
+                    "Tokyo Super Grip Leather",
+                    "Rubber"
+                ]
+            },
+            {
+                "name": "Sport",
+                "description": "The sport or activity the shoes are designed for.",
+                "examples": [
+                    "Tennis",
+                    "Running",
+                    "Skate",
+                    "Skateboarding",
+                    "Walking"
+                ]
+            }
+        ]
+    },
+    "Vitamin": {
+        "name": "Vitamin",
+        "description": "A product category that includes various types of vitamins and supplements.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the vitamin or supplement.",
+                "examples": [
+                    "Kirkland Signature",
+                    "Pure Encapsulations",
+                    "Spring Valley",
+                    "Jarrow Formulas SAM-e",
+                    "Nutricost"
+                ]
+            },
+            {
+                "name": "Supplement type",
+                "description": "The specific type of vitamin or supplement.",
+                "examples": [
+                    "Vitamin C",
+                    "Vitamin A",
+                    "Vitamin D3",
+                    "Multivitamin with Iron",
+                    "Ascorbic Acid"
+                ]
+            },
+            {
+                "name": "Dosage",
+                "description": "The recommended dosage or strength of the vitamin or supplement.",
+                "examples": [
+                    "10,000 IU",
+                    "5000 IU",
+                    "5,000mcg",
+                    "1700mcg/1000mcg",
+                    "5,000 mcg"
+                ]
+            },
+            {
+                "name": "Health benefit",
+                "description": "The potential health benefits provided by the vitamin or supplement.",
+                "examples": [
+                    "Supports Vision, Growth, Reproductive Function, Immunity, Skin and Mucous Membranes",
+                    "Promotes Joint Strength, Mood and Brain Function",
+                    "Antioxidant Protection*",
+                    "Promotes Energy, Supports a Healthy Nervous System",
+                    "Nervous System Health*"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The quantity or weight of the product.",
+                "examples": [
+                    "500",
+                    "120",
+                    "250 Count",
+                    "60",
+                    "2 LBS"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the vitamin or supplement is available.",
+                "examples": [
+                    "Tabs",
+                    "Softgel Capsules",
+                    "Bottle",
+                    "Enteric-Coated tabs",
+                    "Powder"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of items or bottles included in a pack.",
+                "examples": [
+                    "60 Count",
+                    "2 Bottles",
+                    "Pack of 2",
+                    "Pack of 3",
+                    "Pack of 1"
+                ]
+            },
+            {
+                "name": "Diet",
+                "description": "Dietary preferences or restrictions associated with the product.",
+                "examples": [
+                    "Gluten Free",
+                    "Vegan",
+                    "Vegetarian",
+                    "Paleo & Keto Friendly",
+                    "Veggie"
+                ]
+            },
+            {
+                "name": "Supply size",
+                "description": "The duration of supply provided by the product.",
+                "examples": [
+                    "2 Month Supply",
+                    "75-Day Supply",
+                    "Ten Month Supply"
+                ]
+            },
+            {
+                "name": "Age",
+                "description": "The target age group for the product.",
+                "examples": [
+                    "Adults",
+                    "Adult",
+                    "Children's",
+                    "Adults 50+",
+                    "50 Plus"
+                ]
+            },
+            {
+                "name": "Flavor",
+                "description": "The flavor variant of the product.",
+                "examples": [
+                    "200 mg",
+                    "Natural Cherry Flavor",
+                    "Strawberry Flavor",
+                    "Assorted",
+                    "Grape Flavored"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "Special features or qualities of the product.",
+                "examples": [
+                    "Non-GMO",
+                    "Zero Sugar",
+                    "All Natural",
+                    "Sugar Free",
+                    "Made with Organic Kale"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The target gender for the product.",
+                "examples": [
+                    "Men's",
+                    "Women's",
+                    "for Him",
+                    "for Women",
+                    "Men & Women"
+                ]
+            },
+            {
+                "name": "Administration type",
+                "description": "The method of administration for the vitamin or supplement.",
+                "examples": [
+                    "Sublingual Vitamins",
+                    "Sublingual"
+                ]
+            }
+        ]
+    },
+    "Coffee": {
+        "name": "Coffee",
+        "description": "A category for coffee products.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the coffee.",
+                "examples": [
+                    "Nescafe Dolce Gusto",
+                    "Nescaf\u00e9",
+                    "MAXWELL HOUSE International",
+                    "Green Mountain Coffee",
+                    "Folgers"
+                ]
+            },
+            {
+                "name": "Flavor",
+                "description": "The flavor of the coffee.",
+                "examples": [
+                    "Espresso Intenso",
+                    "Espresso",
+                    "Suisse Mocha",
+                    "Hazelnut",
+                    "Caramel Drizzle"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the coffee is available.",
+                "examples": [
+                    "Coffee Pods",
+                    "Instant",
+                    "Beverage Mix",
+                    "K-Cups",
+                    "Keurig K-Cup Pods"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or quantity of the coffee.",
+                "examples": [
+                    "16 capsules",
+                    "3.5oz/100g",
+                    "4 oz Canisters",
+                    "24-Count Boxes",
+                    "72"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size or quantity of coffee in a pack.",
+                "examples": [
+                    "Pack of 3",
+                    "Pack of 8",
+                    "Pack of 2",
+                    "8 Pack",
+                    "8 pack"
+                ]
+            },
+            {
+                "name": "Roast type",
+                "description": "The roast type of the coffee.",
+                "examples": [
+                    "Medium Dark Roast",
+                    "Medium Roast",
+                    "Medium Roast Blend",
+                    "Light Roast",
+                    "Italian Roast"
+                ]
+            },
+            {
+                "name": "Caffeine content",
+                "description": "The caffeine content of the coffee.",
+                "examples": [
+                    "Decaf",
+                    "Caffeinated",
+                    "Decaffeinato",
+                    "Decaffeinated",
+                    "Half Caff"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or unique characteristics of the coffee.",
+                "examples": [
+                    "Sugar Free",
+                    "Flavored",
+                    "Low Acid",
+                    "Premium",
+                    "Fair Trade"
+                ]
+            },
+            {
+                "name": "Country",
+                "description": "The country of origin of the coffee.",
+                "examples": [
+                    "Costa Rica",
+                    "Colombian",
+                    "Ethiopian",
+                    "Nicaragua",
+                    "Mexico"
+                ]
+            },
+            {
+                "name": "Machine type",
+                "description": "The type of coffee machine compatible with the coffee.",
+                "examples": [
+                    "Keurig Brewers",
+                    "Compatible with Keurig K-Cup Brewers",
+                    "Compatible with Keurig K Cup Brewers",
+                    "Keurig K Cup Brewers",
+                    "Compatible with 2.0 Keurig K-Cup Brewers"
+                ]
+            }
+        ]
+    },
+    "Toothbrush": {
+        "name": "Toothbrush",
+        "description": "A product category for toothbrushes.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the toothbrush.",
+                "examples": [
+                    "Philips Sonicare",
+                    "Sewak Al-Falah",
+                    "GUM",
+                    "Oral-B Pro Health",
+                    "Arm & Hammer"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or unique feature of the toothbrush.",
+                "examples": [
+                    "Bluetooth Connected",
+                    "Traditional Natural Toothbrush",
+                    "Optimal Plaque Control",
+                    "Technique Deep Clean",
+                    "Sugar Defense"
+                ]
+            },
+            {
+                "name": "Age",
+                "description": "The target age group for the toothbrush.",
+                "examples": [
+                    "Kids",
+                    "Kid's",
+                    "Baby",
+                    "Baby & Toddler",
+                    "Adult"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of toothbrushes in a pack.",
+                "examples": [
+                    "1 Count",
+                    "3 Pack",
+                    "3- Pack",
+                    "6 Pack",
+                    "2 Count"
+                ]
+            },
+            {
+                "name": "Power source",
+                "description": "The power source of the toothbrush.",
+                "examples": [
+                    "Rechargeable",
+                    "Sonic Battery Power",
+                    "Rechargeable Power",
+                    "Powerup Battery",
+                    "Battery"
+                ]
+            },
+            {
+                "name": "Operation mode",
+                "description": "The operation mode of the toothbrush.",
+                "examples": [
+                    "Electric Toothbrush",
+                    "Electric",
+                    "Manual",
+                    "Powered",
+                    "Sonic"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the toothbrush.",
+                "examples": [
+                    "Pink",
+                    "White",
+                    "Spiderman",
+                    "Multi",
+                    "Four Colours"
+                ]
+            },
+            {
+                "name": "Size",
+                "description": "The size of the toothbrush.",
+                "examples": [
+                    "Compact",
+                    "475 Compact",
+                    "Full Head",
+                    "Full Size",
+                    "Compact Head"
+                ]
+            },
+            {
+                "name": "Firmness",
+                "description": "The firmness of the toothbrush bristles.",
+                "examples": [
+                    "Ultra Soft",
+                    "Soft",
+                    "Soft Fibre Bristles",
+                    "Extra Soft Bristle",
+                    "Medium"
+                ]
+            },
+            {
+                "name": "Animal",
+                "description": "The toothbrush designed for specific animals.",
+                "examples": [
+                    "Small Breeds",
+                    "for Dogs",
+                    "dog mouth care",
+                    "Pet Toothbrush",
+                    "Finger Dog Toothbrushes"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used for the toothbrush.",
+                "examples": [
+                    "Miswak",
+                    "Bamboo",
+                    "Sewak",
+                    "Plant-Based Bristles",
+                    "Wood"
+                ]
+            },
+            {
+                "name": "Cap",
+                "description": "The cap used to cover the toothbrush.",
+                "examples": [
+                    "Cover Cap"
+                ]
+            }
+        ]
+    },
+    "Breakfast Cereal": {
+        "name": "Breakfast Cereal",
+        "description": "Cereal that is typically consumed for breakfast.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the breakfast cereal.",
+                "examples": [
+                    "Bob's Red Mill",
+                    "Arrowhead Mills",
+                    "Quaker",
+                    "Powerful",
+                    "Kellogg's"
+                ]
+            },
+            {
+                "name": "Sub brand",
+                "description": "The sub brand of the breakfast cereal.",
+                "examples": [
+                    "Corn Grits/ Polenta",
+                    "Cereal",
+                    "Grits",
+                    "Instant Oatmeal",
+                    "Rice Krispies Toasted Rice Cereal"
+                ]
+            },
+            {
+                "name": "Flavor",
+                "description": "The flavor of the breakfast cereal.",
+                "examples": [
+                    "Puffed Millet",
+                    "Quick 5-Minute",
+                    "Peanut Butter & Honey",
+                    "Very Berry",
+                    "Oat & Honey"
+                ]
+            },
+            {
+                "name": "Cereal type",
+                "description": "The type of cereal.",
+                "examples": [
+                    "Cereal",
+                    "Hot Cereal",
+                    "Breakfast Cereal",
+                    "Granola",
+                    "Oatmeal"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or weight of the breakfast cereal.",
+                "examples": [
+                    "24 Oz",
+                    "6 Ounce",
+                    "36.8 oz",
+                    "Large 34.4 Ounce",
+                    "19.5 oz"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size of the breakfast cereal.",
+                "examples": [
+                    "Pack of 12",
+                    "6 Pack",
+                    "2 Bags",
+                    "Pack of 4",
+                    "Pack of 6"
+                ]
+            },
+            {
+                "name": "Container",
+                "description": "The type of container the breakfast cereal is packaged in.",
+                "examples": [
+                    "Bag",
+                    "Cup",
+                    "Box",
+                    "Individual Packets",
+                    "Cups"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or unique feature of the breakfast cereal.",
+                "examples": [
+                    "Organic",
+                    "20g Protein",
+                    "Gluten Free",
+                    "Excellent Source of Fiber",
+                    "Premium Organic"
+                ]
+            }
+        ]
+    },
+    "Sunscreen": {
+        "name": "Sunscreen",
+        "description": "Protective products for the skin against harmful UV rays.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the sunscreen.",
+                "examples": [
+                    "Australian Gold",
+                    "Zinka",
+                    "Sun Bum",
+                    "Neutrogena",
+                    "Banana Boat"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "Specific features or benefits of the sunscreen.",
+                "examples": [
+                    "Water Resistant",
+                    "Colored Sunblock",
+                    "Ultra Sheer",
+                    "Sun Care",
+                    "Sport"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the sunscreen is available.",
+                "examples": [
+                    "Lotion",
+                    "Zinc Nosecoat",
+                    "Lip Balm",
+                    "Dry-Touch Sunscreen Lotion",
+                    "Day Cream"
+                ]
+            },
+            {
+                "name": "Protection level",
+                "description": "The level of protection provided by the sunscreen.",
+                "examples": [
+                    "Broad Spectrum",
+                    "SPF30",
+                    "Broad Spectrum SPF 70",
+                    "SPF 50",
+                    "SPF 32"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The amount of sunscreen in the product.",
+                "examples": [
+                    "5 Ounce",
+                    "3 Fl Oz",
+                    "6 Ounce",
+                    "5 Fluid Ounce",
+                    "2 Ounce"
+                ]
+            },
+            {
+                "name": "Age",
+                "description": "The target age group for the sunscreen.",
+                "examples": [
+                    "Baby + Kids",
+                    "Kids",
+                    "Children",
+                    "Baby",
+                    "Babies"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The number of units in a pack.",
+                "examples": [
+                    "3-Pack",
+                    "4 Pack",
+                    "Pack of 3",
+                    "Twin Pack",
+                    "case of 24"
+                ]
+            },
+            {
+                "name": "Scent",
+                "description": "The fragrance or scent of the sunscreen.",
+                "examples": [
+                    "Mango, Lime, Watermelon",
+                    "Tropical Vanilla",
+                    "Fragrance Free",
+                    "Kona Coffee",
+                    "Aloe Vera"
+                ]
+            },
+            {
+                "name": "Skin type",
+                "description": "The recommended skin type for the sunscreen.",
+                "examples": [
+                    "Sensitive",
+                    "Normal/Dry",
+                    "Light/Medium",
+                    "Sensitive Skin",
+                    "Oily Skin"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the sunscreen.",
+                "examples": [
+                    "White",
+                    "Clear",
+                    "Yellow",
+                    "White/Orange",
+                    "Translucent"
+                ]
+            }
+        ]
+    },
+    "Conditioner": {
+        "name": "Conditioner",
+        "description": "Conditioner is a hair care product that helps to moisturize and nourish the hair after shampooing.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the conditioner.",
+                "examples": [
+                    "Sulfur 8",
+                    "Renpure Originals",
+                    "Suave Professionals",
+                    "Living proof",
+                    "Briogeo"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or specific feature of the conditioner.",
+                "examples": [
+                    "Medicated",
+                    "Natural",
+                    "Paraben Free",
+                    "Superfood",
+                    "Miracle Leave-In Lite"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form or type of the conditioner.",
+                "examples": [
+                    "Conditioner",
+                    "Deep Conditioner",
+                    "Leave-In Conditioner",
+                    "Charcoal and Peppermint Oil Cooling Jelly Conditioner",
+                    "Oil Blend Shampoo"
+                ]
+            },
+            {
+                "name": "Volume",
+                "description": "The volume or size of the conditioner.",
+                "examples": [
+                    "2 Oz",
+                    "32 Fluid Ounce",
+                    "28 oz",
+                    "8 Fl Oz",
+                    "4 Fl Oz"
+                ]
+            },
+            {
+                "name": "Hair type",
+                "description": "The hair type that the conditioner is suitable for.",
+                "examples": [
+                    "Hair and Scalp",
+                    "Normal to Damaged Hair",
+                    "Kids",
+                    "Dry Hair",
+                    "Curls"
+                ]
+            },
+            {
+                "name": "Scent",
+                "description": "The scent or fragrance of the conditioner.",
+                "examples": [
+                    "Original Formula",
+                    "Argan Oil",
+                    "Pure Coconut Oil",
+                    "Almond",
+                    "The Ladies Man Scent"
+                ]
+            },
+            {
+                "name": "Benefit",
+                "description": "The benefit or specific effect of the conditioner.",
+                "examples": [
+                    "Anti-Dandruff",
+                    "Damage Repair",
+                    "Restore",
+                    "Restore Repair",
+                    "Scalp Revival"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The gender that the conditioner is designed for.",
+                "examples": [
+                    "Men",
+                    "Unisex",
+                    "Men & Women"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size or quantity of the conditioner.",
+                "examples": [
+                    "Pack of 2",
+                    "2 pack",
+                    "2 Pack",
+                    "Pack of 3",
+                    "Size 10.7 oz"
+                ]
+            },
+            {
+                "name": "Age",
+                "description": "The age group that the conditioner is suitable for.",
+                "examples": [
+                    "Kids",
+                    "Baby"
+                ]
+            }
+        ]
+    },
+    "Laundry Detergent": {
+        "name": "Laundry Detergent",
+        "description": "Laundry detergent is used for cleaning clothes and removing stains.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the laundry detergent.",
+                "examples": [
+                    "Amazon Brand - Presto!",
+                    "Purex",
+                    "Shout",
+                    "Seventh Generation",
+                    "Spray 'n Wash"
+                ]
+            },
+            {
+                "name": "Specific uses",
+                "description": "The specific use or purpose of the laundry detergent.",
+                "examples": [
+                    "Stain Remover",
+                    "Pre-Treat Laundry Stain Remover",
+                    "Instant Stain Remover",
+                    "Multi-Purpose Cleaner",
+                    "Color Grabber"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the laundry detergent is available.",
+                "examples": [
+                    "Pacs",
+                    "Gel",
+                    "Liquid",
+                    "Refill",
+                    "Trigger"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or volume of the laundry detergent.",
+                "examples": [
+                    "81 Count",
+                    "58 Count",
+                    "22 oz",
+                    "50 oz",
+                    "60 oz"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size or quantity of the laundry detergent.",
+                "examples": [
+                    "Pack of 4",
+                    "Pack of 3",
+                    "Pack of 2",
+                    "2 pack",
+                    "Pack of 6"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or unique feature of the laundry detergent.",
+                "examples": [
+                    "Clear of Dyes",
+                    "4-in-1",
+                    "Best Shout Formula",
+                    "Triple Acting",
+                    "Plastic-Free"
+                ]
+            },
+            {
+                "name": "Scent",
+                "description": "The scent or fragrance of the laundry detergent.",
+                "examples": [
+                    "Free & Clear",
+                    "Mountain Breeze",
+                    "Fresh Citrus scent",
+                    "Spring Meadow",
+                    "Fresh Linen"
+                ]
+            },
+            {
+                "name": "Load size",
+                "description": "The load size or number of loads the laundry detergent can handle.",
+                "examples": [
+                    "232 Total Loads",
+                    "33 Loads",
+                    "32 Loads",
+                    "106 Loads",
+                    "140 loads"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color of the laundry detergent.",
+                "examples": [
+                    "Blue",
+                    "Orange"
+                ]
+            },
+            {
+                "name": "Skin type",
+                "description": "The skin type for which the laundry detergent is suitable.",
+                "examples": [
+                    "Sensitive Skin",
+                    "Made for Sensitive Skin",
+                    "Safe for Sensitive Skin"
+                ]
+            }
+        ]
+    },
+    "Safety Mask": {
+        "name": "Safety Mask",
+        "description": "Protective masks designed to provide safety and prevent the spread of airborne particles.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand or manufacturer of the safety mask.",
+                "examples": [
+                    "Zubrex",
+                    "Pink Princess",
+                    "Evild",
+                    "Contraband Sports",
+                    "eZthings"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The quantity or size of the safety mask.",
+                "examples": [
+                    "50 Pcs",
+                    "4pk",
+                    "50",
+                    "2-Pack",
+                    "1 Pack"
+                ]
+            },
+            {
+                "name": "Reusability",
+                "description": "The reusability options of the safety mask.",
+                "examples": [
+                    "Disposable",
+                    "Washable",
+                    "Reusable",
+                    "Washable, Reusable",
+                    "Washable and Reusable"
+                ]
+            },
+            {
+                "name": "Gender",
+                "description": "The intended gender for the safety mask.",
+                "examples": [
+                    "Girls",
+                    "Men & Women",
+                    "Unisex",
+                    "Women, Men",
+                    "Women"
+                ]
+            },
+            {
+                "name": "Material",
+                "description": "The material used in the construction of the safety mask.",
+                "examples": [
+                    "Nanofiber Lining",
+                    "Cotton Lining",
+                    "Nylon/Spandex",
+                    "100% Cotton",
+                    "FABRIC"
+                ]
+            },
+            {
+                "name": "Mask type",
+                "description": "The type or purpose of the safety mask.",
+                "examples": [
+                    "Lightweight Breathable Protective Anti-Dust Facial Masks Health School Office",
+                    "Masquerade Ball Party Facial Decoration Mardi Gras Mouth Jewelry",
+                    "Sport Face Cover / Sport Mask",
+                    "Face Protection",
+                    "Personal Protective Safety"
+                ]
+            },
+            {
+                "name": "Color",
+                "description": "The color or design of the safety mask.",
+                "examples": [
+                    "Embroidered Flowers",
+                    "Full Sequins Gold",
+                    "Blue",
+                    "Solid Baby Blue",
+                    "Black and Cobalt Blue"
+                ]
+            },
+            {
+                "name": "Closure type",
+                "description": "The type of closure mechanism used in the safety mask.",
+                "examples": [
+                    "Elastic Earloops",
+                    "Adjustable Ear Loops & Nose Wire",
+                    "with/without Nose wire",
+                    "Nose Clip and Ear Loops",
+                    "Earloop"
+                ]
+            },
+            {
+                "name": "Age range",
+                "description": "The recommended age range for the safety mask.",
+                "examples": [
+                    "Age 4-11",
+                    "Girls",
+                    "Kids",
+                    "Adult",
+                    "adult"
+                ]
+            },
+            {
+                "name": "Size",
+                "description": "The size or dimensions of the safety mask.",
+                "examples": [
+                    "OSFA",
+                    "Medium",
+                    "50PCS",
+                    "Size-Adjustable",
+                    "Adult Size"
+                ]
+            },
+            {
+                "name": "Country",
+                "description": "The country of origin for the safety mask.",
+                "examples": [
+                    "Made in USA",
+                    "MADE IN USA",
+                    "Made In USA",
+                    "US",
+                    "Made In Canada"
+                ]
+            },
+            {
+                "name": "Package type",
+                "description": "The type of packaging for the safety mask.",
+                "examples": [
+                    "Individually Wrapped",
+                    "Mesh Bag",
+                    "Sealed Dispenser Box",
+                    "Boxed"
+                ]
+            },
+            {
+                "name": "Layer",
+                "description": "The number of layers or additional features in the safety mask.",
+                "examples": [
+                    "3 Ply",
+                    "Filter Pocket",
+                    "3-Ply",
+                    "99.9% Effective Carbon Filters",
+                    "Double Layer"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "Special features or qualities of the safety mask.",
+                "examples": [
+                    "Breathable",
+                    "Comfortable and Breathable",
+                    "Anti Fogging",
+                    "Latex Free",
+                    "Lightweight Ultra-Breathable"
+                ]
+            },
+            {
+                "name": "Certified grade",
+                "description": "The certified grade or standard of the safety mask.",
+                "examples": [
+                    "M Plus",
+                    "M2",
+                    "BFE99",
+                    "BVM-3081-001",
+                    "PM2.5"
+                ]
+            }
+        ]
+    },
+    "Tea": {
+        "name": "Tea",
+        "description": "A beverage category that includes various types of tea.",
+        "attributes": [
+            {
+                "name": "Brand",
+                "description": "The brand of the tea product.",
+                "examples": [
+                    "Davidson's",
+                    "Yogi Tea",
+                    "Celebration Herbals",
+                    "Traditional Medicinals",
+                    "Zest Tea"
+                ]
+            },
+            {
+                "name": "Flavor",
+                "description": "The flavor of the tea.",
+                "examples": [
+                    "Mulling Spice",
+                    "Nighty Night",
+                    "Roasted Dandelion Root Tea",
+                    "Apple Cinnamon",
+                    "Blueberry Hibiscus"
+                ]
+            },
+            {
+                "name": "Item form",
+                "description": "The form in which the tea is available.",
+                "examples": [
+                    "Loose",
+                    "Tea Bags",
+                    "Bags",
+                    "Loose Leaf",
+                    "Infused Mints"
+                ]
+            },
+            {
+                "name": "Net content",
+                "description": "The net content or quantity of the tea product.",
+                "examples": [
+                    "16-Ounce Bag",
+                    "16 Count",
+                    "24",
+                    "16 Ct",
+                    "16"
+                ]
+            },
+            {
+                "name": "Pack size",
+                "description": "The pack size or quantity of tea products in a pack.",
+                "examples": [
+                    "Pack of 1",
+                    "Pack of 4",
+                    "Pack Of 6",
+                    "2.5 Ounce",
+                    "1 Pack"
+                ]
+            },
+            {
+                "name": "Specialty",
+                "description": "The specialty or unique features of the tea product.",
+                "examples": [
+                    "Calming",
+                    "Organic",
+                    "Promotes a Good Night's Sleep",
+                    "Natural & Healthy Traditional Black Coffee Substitute, Perfect for Keto",
+                    "USDA Certified Organic/Fair Trade"
+                ]
+            },
+            {
+                "name": "Tea variety",
+                "description": "The specific variety or type of tea.",
+                "examples": [
+                    "Calendula Flower Herbal Tea",
+                    "Mother's Milk Women's Tea",
+                    "Chamomile Herbal Tea",
+                    "Black Tea",
+                    "Herbal Tea"
+                ]
+            },
+            {
+                "name": "Country",
+                "description": "The country of origin or production of the tea.",
+                "examples": [
+                    "Thai",
+                    "Blended in USA",
+                    "South African",
+                    "Japanese",
+                    "Taiwan"
+                ]
+            },
+            {
+                "name": "Caffeine content",
+                "description": "The caffeine content of the tea product.",
+                "examples": [
+                    "Caffeine Free",
+                    "150 mg Caffeine per Serving",
+                    "Caffeine-Free",
+                    "Caffeinated",
+                    "Caffeine Level: High"
+                ]
+            }
+        ]
+    }
+}
