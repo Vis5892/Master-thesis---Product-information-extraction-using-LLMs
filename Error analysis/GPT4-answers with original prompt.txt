@@ -1,0 +1,477 @@
+Token - 4878
+after adding the line : The output should be just the information in json format and nothing else.
+no extra information and token count reduced to 3766 and so did the time taken to run.
+
+
+
+
+
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Gender, Model name, Shoe type, Color, Size. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Diesel Men's Exposure High-Top Sneaker
+
+  5%|▌         | 1/20 [00:05<01:51,  5.88s/it]
+> Finished chain.
+```json
+{
+"Brand": "Diesel",
+"Gender": "Men"s",
+"Model name": "Exposure",
+"Shoe type": "High-Top Sneaker",
+"Color": "n/a",
+"Size": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Gender, Model name, Shoe type, Color, Size. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Florsheim Men's Milano Slip-On Loafer,Burgundy,10 D US
+
+ 10%|█         | 2/20 [00:10<01:34,  5.22s/it]
+> Finished chain.
+Based on the product title "Florsheim Men"s Milano Slip-On Loafer,Burgundy,10 D US", here is the extracted information in JSON format:
+```json
+{
+"Brand": "Florsheim",
+"Gender": "Men"s",
+"Model name": "Milano",
+"Shoe type": "Slip-On Loafer",
+"Color": "Burgundy",
+"Size": "10 D US"
+}
+```
+If any attribute was not present, it would be represented as "n/a", but in this case, all attributes have been provided in the product title.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Supplement type, Dosage, Health benefit, Net content, Item form, Pack size. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: NOW Supplements, Vitamin A (Fish Liver Oil) 25,000 IU, Essential Nutrition, 250 Softgels
+
+ 15%|█▌        | 3/20 [00:13<01:07,  3.97s/it]
+> Finished chain.
+```json
+{
+"Brand": "NOW Supplements",
+"Supplement type": "Vitamin A",
+"Dosage": "25,000 IU",
+"Health benefit": "Essential Nutrition",
+"Net content": "n/a",
+"Item form": "Softgels",
+"Pack size": "250"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Supplement type, Dosage, Health benefit, Net content, Item form, Pack size. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: 50 Evion Capsules Vitamin E For Glowing Face,Strong Hair,Acne,Nails, Glowing Skin 400mg
+
+ 20%|██        | 4/20 [00:22<01:40,  6.25s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Evion",
+"Supplement type": "Vitamin E",
+"Dosage": "400mg",
+"Health benefit": ["Glowing Face", "Strong Hair", "Acne", "Nails", "Glowing Skin"],
+"Net content": "50",
+"Item form": "Capsules",
+"Pack size": "n/a"
+}
+```
+Please note that the "Net content" attribute is assumed to be the quantity of capsules in this context, and "Health benefit" is a list of benefits as multiple benefits are mentioned. If "Pack size" refers to the number of items in a package or the packaging configuration, it is not specified in the product title and is therefore marked as "n/a".
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Flavor, Item form, Net content, Pack size, Roast type. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Maxwell House International Coffee French Vanilla Iced Latte Singles, 3.42-Ounce 2 Boxes (Pack of 16)
+
+ 25%|██▌       | 5/20 [00:27<01:27,  5.81s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Maxwell House International",
+"Flavor": "French Vanilla",
+"Item form": "Iced Latte Singles",
+"Net content": "3.42-Ounce",
+"Pack size": "2 Boxes",
+"Roast type": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Flavor, Item form, Net content, Pack size, Roast type. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Starbucks Blonde Roast Ground Coffee — Veranda Blend — 100% Arabica — 6 bags (12 oz. each)
+
+ 30%|███       | 6/20 [00:32<01:14,  5.29s/it]
+> Finished chain.
+```json
+{
+"Brand": "Starbucks",
+"Flavor": "Veranda Blend",
+"Item form": "Ground",
+"Net content": "12 oz.",
+"Pack size": "6 bags",
+"Roast type": "Blonde Roast"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Age, Pack size, Power source, Operation mode, Color. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Tom's of Maine Natural Toddler Training Toothpaste, Mild Fruit, 1 Count (Pack of 6)
+
+ 35%|███▌      | 7/20 [00:41<01:27,  6.70s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Tom"s of Maine",
+"Specialty": "Natural",
+"Age": "Toddler",
+"Pack size": "1 Count (Pack of 6)",
+"Power source": "n/a",
+"Operation mode": "n/a",
+"Color": "Mild Fruit"
+}
+```
+Please note that "Mild Fruit" is not typically an attribute for color, but since it is the only attribute that could potentially fit the "Color" category in the context of a toothpaste flavor, I have included it there. If "Mild Fruit" is not meant to represent the color, then the "Color" attribute should also be "n/a".
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Age, Pack size, Power source, Operation mode, Color. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Philips Sonicare ProtectiveClean 5100 Gum Health, Rechargeable electric toothbrush with pressure sensor, Black HX6850/60, 1 Count
+
+ 40%|████      | 8/20 [01:04<02:23, 11.93s/it]
+> Finished chain.
+Based on the product title provided, I will extract the attribute values and present them in JSON format. Here are the attributes and their corresponding values extracted from the title:
+- Brand: Philips Sonicare
+- Specialty: Gum Health
+- Age: n/a
+- Pack size: 1 Count
+- Power source: Rechargeable electric
+- Operation mode: n/a
+- Color: Black
+Now, I will format these attributes into JSON:
+```json
+{
+"Brand": "Philips Sonicare",
+"Specialty": "Gum Health",
+"Age": "n/a",
+"Pack size": "1 Count",
+"Power source": "Rechargeable electric",
+"Operation mode": "n/a",
+"Color": "Black"
+}
+```
+Please note that "Operation mode" is not explicitly mentioned, but since it is an electric toothbrush, it could be implied that it operates in an electric mode. However, since the operation mode is not specified in the product title, I have marked it as "n/a".
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Sub brand, Flavor, Cereal type, Net content, Pack size, Container, Specialty. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Post Honey Bunches of Oats Crunchy Honey Roasted Cereal 18 Ounce (Pack of 1) Box
+
+ 45%|████▌     | 9/20 [01:12<01:54, 10.43s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Post",
+"Sub brand": "Honey Bunches of Oats",
+"Flavor": "Crunchy Honey Roasted",
+"Cereal type": "Cereal",
+"Net content": "18 Ounce",
+"Pack size": "Pack of 1",
+"Container": "Box",
+"Specialty": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Sub brand, Flavor, Cereal type, Net content, Pack size, Container, Specialty. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Weetabix Whole Grain Cereal Biscuits, Non-GMO Project Verified, Heart Healthy, Kosher, Vegan, 14 Oz Box
+
+ 50%|█████     | 10/20 [01:28<02:02, 12.24s/it]
+> Finished chain.
+Based on the product title provided, here is the extracted information in JSON format:
+```json
+{
+"Brand": "Weetabix",
+"Sub brand": "n/a",
+"Flavor": "n/a",
+"Cereal type": "Whole Grain Cereal Biscuits",
+"Net content": "14 Oz",
+"Pack size": "Box",
+"Container": "n/a",
+"Specialty": "Non-GMO Project Verified, Heart Healthy, Kosher, Vegan"
+}
+```
+Please note that some attributes like "Sub brand" and "Container" are not explicitly mentioned in the product title, so they are marked as "n/a". The "Specialty" attribute includes all special certifications and dietary considerations mentioned.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Item form, Protection level, Net content. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Australian Gold Botanical Sunscreen Natural Spray SPF 50, 6 Ounce | Broad Spectrum | Water Resistant
+
+ 55%|█████▌    | 11/20 [01:32<01:27,  9.75s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Australian Gold",
+"Specialty": "Natural",
+"Item form": "Spray",
+"Protection level": "SPF 50",
+"Net content": "6 Ounce"
+}
+```
+If any of the attributes were not present in the product title, they would be marked as "n/a", but in this case, all attributes have been mentioned in the title.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Item form, Protection level, Net content. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: NO-AD Sunscreen Lotion SPF 45 16 oz
+
+ 60%|██████    | 12/20 [01:34<00:59,  7.41s/it]
+> Finished chain.
+```json
+{
+"Brand": "NO-AD",
+"Specialty": "n/a",
+"Item form": "Lotion",
+"Protection level": "SPF 45",
+"Net content": "16 oz"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Item form, Volume, Hair type, Scent. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Bumble and Bumble Super Rich Conditioner, 8 Fl Oz
+
+ 65%|██████▌   | 13/20 [01:40<00:48,  6.93s/it]
+> Finished chain.
+```json
+{
+"Brand": "Bumble and Bumble",
+"Specialty": "n/a",
+"Item form": "Conditioner",
+"Volume": "8 Fl Oz",
+"Hair type": "n/a",
+"Scent": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specialty, Item form, Volume, Hair type, Scent. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Grave Before Shave Beard Care Pack (Bay Rum Blend)
+
+ 70%|███████   | 14/20 [01:52<00:51,  8.56s/it]
+> Finished chain.
+To extract the attribute values from the product title "Grave Before Shave Beard Care Pack (Bay Rum Blend)" in a JSON format, we will first identify the attributes present in the title. The title suggests the brand and scent, but does not explicitly mention specialty, item form, volume, or hair type. Here is the JSON representation with the identified attributes and "n/a" for those that are not applicable:
+```json
+{
+"Brand": "Grave Before Shave",
+"Specialty": "n/a",
+"Item form": "n/a",
+"Volume": "n/a",
+"Hair type": "n/a",
+"Scent": "Bay Rum"
+}
+```
+Please note that the "Beard Care Pack" could potentially be considered as the item form or specialty, but since it is not explicitly stated, I have marked it as "n/a". If "Beard Care Pack" is indeed an attribute you wish to capture, please provide further instructions on how to classify it.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specific uses, Item form, Net content, Pack size, Specialty. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Shout Stain Remover Liquid Refill - 60 oz - 2 pk
+
+ 75%|███████▌  | 15/20 [01:56<00:35,  7.09s/it]
+> Finished chain.
+Based on the product title "Shout Stain Remover Liquid Refill - 60 oz - 2 pk", here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Shout",
+"Specific uses": "Stain Remover",
+"Item form": "Liquid",
+"Net content": "60 oz",
+"Pack size": "2 pk",
+"Specialty": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Specific uses, Item form, Net content, Pack size, Specialty. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Tyler Candle Company Tyler Candle Co High Maintenance Glamorous Wash
+
+ 80%|████████  | 16/20 [02:06<00:32,  8.01s/it]
+> Finished chain.
+Based on the product title "Tyler Candle Company Tyler Candle Co High Maintenance Glamorous Wash," we can extract the following attributes:
+- Brand: Tyler Candle Company
+- Specific uses: n/a
+- Item form: n/a
+- Net content: n/a
+- Pack size: n/a
+- Specialty: High Maintenance (This seems to be a product line or scent, but since it"s not a standard attribute like "unscented" or "hypoallergenic," it"s a bit of a guess.)
+Here is the information in JSON format:
+```json
+{
+"Brand": "Tyler Candle Company",
+"Specific uses": "n/a",
+"Item form": "n/a",
+"Net content": "n/a",
+"Pack size": "n/a",
+"Specialty": "High Maintenance"
+}
+```
+Please note that without additional context, some attributes like "Specific uses," "Item form," "Net content," and "Pack size" cannot be determined from the title alone and are marked as "n/a". If the product title included more specific details, those attributes could be filled in accordingly.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Net content, Reusability, Gender, Material, Mask type, Color. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Con.Struct Face Mask, Face Mask 6-Pack Washable Unisex Cotton Cloth Face Mask (Grey Multi Solid)
+
+ 85%|████████▌ | 17/20 [02:26<00:35, 11.74s/it]
+> Finished chain.
+To extract the attribute values from the product title and present them in JSON format, I will identify the attributes based on the provided valid attributes list. Here is the extraction:
+- Brand: Con.Struct
+- Net content: n/a (not specified in the title)
+- Reusability: Washable (implies that it can be reused)
+- Gender: Unisex
+- Material: Cotton Cloth
+- Mask type: Face Mask
+- Color: Grey Multi Solid
+Now, I will format these attributes into JSON:
+```json
+{
+"Brand": "Con.Struct",
+"Net content": "n/a",
+"Reusability": "Washable",
+"Gender": "Unisex",
+"Material": "Cotton Cloth",
+"Mask type": "Face Mask",
+"Color": "Grey Multi Solid"
+}
+```
+Please note that the "6-Pack" information is not captured in the attributes list provided, so it is not included in the JSON output. If "Pack size" or similar were a valid attribute, it would be included as well.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Net content, Reusability, Gender, Material, Mask type, Color. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Parquet 12 Pack Washable Fabric Face Mask - Stretchy & Soft Face Covering
+
+ 90%|█████████ | 18/20 [02:35<00:21, 10.86s/it]
+> Finished chain.
+Based on the product title "Parquet 12 Pack Washable Fabric Face Mask - Stretchy & Soft Face Covering", we can extract the following attribute values:
+- Brand: Parquet
+- Net content: 12 Pack
+- Reusability: Washable
+- Gender: n/a
+- Material: Fabric
+- Mask type: Face Mask
+- Color: n/a
+Here is the information in JSON format:
+```json
+{
+"Brand": "Parquet",
+"Net content": "12 Pack",
+"Reusability": "Washable",
+"Gender": "n/a",
+"Material": "Fabric",
+"Mask type": "Face Mask",
+"Color": "n/a"
+}
+```
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Flavor, Item form, Net content, Pack size, Specialty, Tea variety, Country. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Lipton Southern Sweet Iced Tea Bags 22 Count Family Size (Pack of 2)
+
+ 95%|█████████▌| 19/20 [02:48<00:11, 11.52s/it]
+> Finished chain.
+Based on the product title "Lipton Southern Sweet Iced Tea Bags 22 Count Family Size (Pack of 2)", here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Lipton",
+"Flavor": "Southern Sweet",
+"Item form": "Tea Bags",
+"Net content": "22 Count",
+"Pack size": "Family Size",
+"Specialty": "n/a",
+"Tea variety": "Iced Tea",
+"Country": "n/a"
+}
+```
+Please note that "Pack of 2" indicates the quantity of the packs but does not fit into the predefined attributes, so it is not included in the JSON output. If "Pack size" is meant to refer to the number of items in a package, then "Family Size" is the correct value, and the "Pack of 2" could be considered as additional information not covered by the given attributes.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+System: You are a world-class algorithm for extracting information in structured formats. 
+Human: Extract the attribute values from the product title in a JSON format. Valid attributes are Brand, Flavor, Item form, Net content, Pack size, Specialty, Tea variety, Country. If an attribute is not present in the product title, the attribute value is supposed to be 'n/a'.
+Human: Global Moringa Tea - Original Organic Moringa Tea (30 Tea Bags) Ghana Grown, American Seller
+
+100%|██████████| 20/20 [03:02<00:00,  9.13s/it]
+> Finished chain.
+Based on the product title provided, here are the extracted attribute values in JSON format:
+```json
+{
+"Brand": "Global Moringa",
+"Flavor": "Original",
+"Item form": "Tea Bags",
+"Net content": "30 Tea Bags",
+"Pack size": "n/a",
+"Specialty": "Organic",
+"Tea variety": "Moringa",
+"Country": "Ghana"
+}
+```
+Please note that "American Seller" is not an attribute that fits into the specified list, so it has not been included. If "Pack size" refers to the number of items in a package or the total weight/volume of the package, it is not explicitly mentioned beyond the "30 Tea Bags," which has been interpreted as "Net content." If "Pack size" should reflect the number of packages (e.g., a case of multiple boxes), then it remains "n/a" as it is not specified in the title.
